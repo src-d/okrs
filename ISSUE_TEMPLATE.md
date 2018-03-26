@@ -1,4 +1,4 @@
-**Parent objective:**  `e.g. #4`
+**Parent objective:**  `e.g. #4`  
 **Progress:** 0%
 
 * Key result 1
