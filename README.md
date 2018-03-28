@@ -2,7 +2,7 @@
 
 The list and tree below is automatically generated from the issues in this repository, using our [OKR GitHub tool](https://github.com/dennwc/okrs)
 
----
+-------------
 
 ### Vision: Being the leading company for ML on Code
 
@@ -57,7 +57,6 @@ The list and tree below is automatically generated from the issues in this repos
 		* [P0] Make engine suitable to run over PGA
 		* [P0] Make UAST usable without extensive knowledge of Babelfish
 		* [P0] Facilitate UAST-based tasks on PGA
-	* 
 * [P0] Users are able to visit a web application and query hosted git repositories and interact with UAST’s for returned blobs
 * [P0] Contributors of selected open-source repositories will receive source{d} bot recommendations on pull requests
 * [P0] Increasing the # of users of the source{d} stack
@@ -84,7 +83,6 @@ The list and tree below is automatically generated from the issues in this repos
 			* [P1] Structural pointers.
 			* [P2] UAST structure normalization.
 * Increasing the # of users of the source{d} stack
-	* [P0] XXX
 	* [P0] Release updated content for sourced.tech
 	* Release updated content for sourced.tech
 		* [P0] Create a content strategy plan
