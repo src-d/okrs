@@ -2,12 +2,20 @@
 
 The list and tree below is automatically generated from the issues in this repository, using our [OKR GitHub tool](https://github.com/dennwc/okrs)
 
--------------
-### Vision: Being the leading company for ML on Code
+-------------### Vision: Being the leading company for ML on Code
 
 [Source page](https://github.com/src-d/okrs/issues/1)
 
 **Progress:** 0%
+
+#### Advance the expertise in MLonCode
+
+[Source page](https://github.com/src-d/okrs/issues/43)
+
+**Progress:** 0%
+
+* [P0] MLonCode R&D
+* [P1] ML academia relations
 
 #### Store the world’s source code
 
@@ -25,13 +33,14 @@ The list and tree below is automatically generated from the issues in this repos
 		* [P1] increase job throghtput by 30%
 		* [P2] decrease timeout errors by 30%
 		* [P2] decrease pod restarts by 50%
-* Store all public repositories from GitHub, BitBucket, GitLab and self-hosted cgit ([link](https://github.com/src-d/okrs/issues/14))
+* Store all public repositories from GitHub, BitBucket and self-hosted cgit ([link](https://github.com/src-d/okrs/issues/14))
 	* [P0] Stable and fully unattended pipeline with rovers and borges ([link](https://github.com/src-d/okrs/issues/26))
 	* Stable and fully unattended pipeline with rovers and borges ([link](https://github.com/src-d/okrs/issues/26))
 		* [P0] save job issues for analysis to make bug fixing easier
 		* [P0] re-queue failed jobs to be processed again
 		* [P1] add different priorities to jobs
 		* [P2] update already fetched repositories depending on `last commit` date and `fetched at` date
+		* [P2] regression tests
 		* [P3] handle correctly repository deletion
 
 #### Being a better company to work at
@@ -40,10 +49,13 @@ The list and tree below is automatically generated from the issues in this repos
 
 **Progress:** 0%
 
-* [P0] Successfully implement best practices for being a remote company
+* [P0] Successfully implement best practices for being a remote company ([link](https://github.com/src-d/okrs/issues/40))
 * [P0] Having a more diverse hiring funnel (increase diversity in terms of gender and race)
 * [P1] Successfully execute OKRs methodology
 * [P1] Remove technical friction between multiple teams ([link](https://github.com/src-d/okrs/issues/19))
+* Successfully implement best practices for being a remote company ([link](https://github.com/src-d/okrs/issues/40))
+	* [P0] Create a study on employees sentiment
+	* [P0] Key result n
 * Having a more diverse funnel in terms of gender and race ([link](https://github.com/src-d/okrs/issues/36))
 	* [P1] Identify and solve 2 potential bottlenecks
 	* [P1] Bi-weekly tweets mentioning we are hiring and want more women and non-white people in our team
@@ -93,6 +105,10 @@ The list and tree below is automatically generated from the issues in this repos
 * [P0] Contributors of selected open-source repositories will receive source{d} bot recommendations on pull requests ([link](https://github.com/src-d/okrs/issues/9))
 * [P0] Increasing the # of users of the source{d} stack ([link](https://github.com/src-d/okrs/issues/10))
 * [P1] Cover top 10 languages from the most used list on StackOverflow's developer survey ([link](https://github.com/src-d/okrs/issues/29))
+* Enable sharing and publishing MLonCode models ([link](https://github.com/src-d/okrs/issues/44))
+	* [P2] Improve Modelforge according to DevRel requirements and proposals
+* PGA updates ([link](https://github.com/src-d/okrs/issues/41))
+	* [P1] Organize and perform regular PGA dataset updates; specify the updates policy
 * Cover top 10 languages from the most used list on StackOverflow's developer survey ([link](https://github.com/src-d/okrs/issues/29))
 	* [P1] C# driver.
 	* [P1] Typescript driver.
@@ -153,6 +169,11 @@ The list and tree below is automatically generated from the issues in this repos
 	* [P0] XXX
 	* [P0] Release updated content for sourced.tech ([link](https://github.com/src-d/okrs/issues/13))
 	* [P0] Describe how Babelfish compares to other systems .
+	* Machine Learning developer relations ([link](https://github.com/src-d/okrs/issues/42))
+		* [P2] Publish 8 ML blog posts in Q2
+		* [P2] Speak about ML on 10 conferences all over the globe
+		* [P2] Reach 1,000 overall upvotes of new blog posts on Rediit
+		* [P1] ~Vadim does not lose GDE status~ Study the emerging Google-specific technologies and use them in blog posts and talks
 	* Release updated content for sourced.tech ([link](https://github.com/src-d/okrs/issues/13))
 		* [P0] Create a content strategy plan ([link](https://github.com/src-d/okrs/issues/35))
 		* [P1] Update brand touchpoints according to content plan
@@ -180,15 +201,17 @@ The list and tree below is automatically generated from the issues in this repos
 	* [P1] Get over 2/3 of positive user feedback
 * Launch the hosted playground of gitbase ([link](https://github.com/src-d/okrs/issues/8))
 	* [P0] Launch a beta version of the single node version of gitbase ([link](https://github.com/src-d/okrs/issues/16))
-	* [P0] Create a gitbase playground
+	* [P0] Create a gitbase playground ([link](https://github.com/src-d/okrs/issues/39))
 	* [P0] Have over 50 users in the first month
 	* [P1] Get over 2/3 of user positive feedback
+	* Design the gitbase playground ([link](https://github.com/src-d/okrs/issues/39))
+		* [P0] Competitive Research
+		* [P0] Wireframing
+		* [P1] Usability Testing
+		* [P1] Working Prototype
+		* [P1] User Research Activities & Report
 	* Make gitbase suitable to run over PGA ([link](https://github.com/src-d/okrs/issues/16))
-		* [P0] Make gitbase compatible with siva files
-		* [P0] Make gitbase queries on PGA stable
+		* [P0] Make gitbase better suited for rooted repositories
+		* [P0] Make gitbase queries on PGA not crash
 		* [P1] Instrument gitbase to be able to trace performance
 		* [P1] Improve performance of gitbase over PGA
-		* Improve performance of gitbase over PGA ([link](https://github.com/src-d/okrs/issues/31))
-			* [P0] Key result 1
-			* [P1] Key result 2
-			* [P0] Key result n
