@@ -2,7 +2,8 @@
 
 The list and tree below is automatically generated from the issues in this repository, using our [OKR GitHub tool](https://github.com/dennwc/okrs)
 
--------------### Vision: Being the leading company for ML on Code
+-------------
+### Vision: Being the leading company for ML on Code
 
 [Source page](https://github.com/src-d/okrs/issues/1)
 
