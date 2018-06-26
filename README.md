@@ -27,9 +27,9 @@
 
 ### Launch source{d} lookout alpha at GopherCon
 
-- [ ] Launch a production ready analyzer SDK
-- [ ] Launch a production ready service
-- [ ] Launch a beta of the style analyzer[s]
+- [ ] Release a production ready analyzer SDK
+- [ ] Release a production ready service
+- [ ] Release a beta of the style analyzer[s]
 
 ## Store the world's source code
 
