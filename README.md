@@ -82,3 +82,15 @@
 
 ## Advance ML-on-Code awareness
 
+- Is it supposed to be MLonCode instead of ML-on-Code? - Vadim
+
+### ML team activities
+
+- [ ] Speak on two conferences
+    - This is an "ambitious goal" because ML team would like to focus on the intelligent code review. The one conference being ML4P in mid-July.
+- [ ] Write 5 ML blog posts
+    - Ambitious!
+- [ ] Let's not forget about our MSR interviews - Francesc & Victor
+- [ ] Help the community with MLonCode
+    - E.g. https://src-d.slack.com/services/BBACXFVD1
+- [ ] Support awesome-mloncode
