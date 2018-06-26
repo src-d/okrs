@@ -45,6 +45,28 @@
 - [ ] Release a production ready service
 - [ ] Release a beta of the style analyzer[s]
 
+### Code review study across GitHub
+
+- [ ] Conduct the study how people do code reviews on GitHub
+    - We need the numbers. E.g. what is the ratio of stupid style fixes compared to the overall? Clever fixes?
+
+### ML approach to source code style check
+
+- [ ] General code style rules mining under AST
+- [ ] General code style rules mining over AST
+    - What does this mean? Read https://github.com/src-d/minutes/blob/673545e3c9d2bc12a2f112f725cccec6d8054ff4/machine-learning/2018-06-22-Lookout-discussion.md
+- [ ] Naming style suggestion
+- [ ] Bad names detection
+- [ ] Typos correction in names
+- [ ] One-line best practices mining
+
+### ML support objectives
+
+- [ ] Maintain the sourced-ml stack
+- [ ] Incorporate the identifier splitter inside sourced-ml extraction pipeline
+    - Yes, Máximo, it is really needed for the upstream tasks suchs as typos, naming style and bad names detection
+- [ ] Internal ML research meetups once per month
+
 ## Store the world's source code
 
 ### Stable fetch pipeline
