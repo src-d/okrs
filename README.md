@@ -10,9 +10,10 @@
 
 ### Babelfish
 
-- [ ] C/C++ driver
 - [ ] Client/Library improvements, packaging, and stability
 - [ ] Iterate the higher level UAST abstractions to fix and maintain
+- [ ] C# driver
+- [ ] C/C++ driver
 
 ### Gemini
 
