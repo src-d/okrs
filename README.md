@@ -22,6 +22,7 @@
 
 - [ ] Regression Test, Benchmarks and Deploy platform (CD?)
 - [ ] Improve Logs, CLI, and other guides.
+- [ ] Make it easy to update and maintain PGA.
 
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
