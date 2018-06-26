@@ -25,8 +25,17 @@
 
 - [ ] Setup the ML cluster environment
 - [ ] Regression Test, Benchmarks and Deploy platform (CD?)
+    - For which projects? Are any of ML included? - Vadim
 - [ ] Improve Logs, CLI, and other guides.
+    - Logs for Go or for Python too? CLI guide - do we have one?
 - [ ] Make it easy to update and maintain PGA.
+- [ ] Conduct a happiness survey and react to the unveiled issues
+- [ ] Improve the formal process of speaking at a conference
+    - We have nothing currently. Even a simple checklist would save us much time and nerves, especially to poor Esther who really struggled with my conferencing season. It starts with notifying her once the approval registered in src-d/conferences and ends with submitting the expenses report. It also includes what to check in the booking confirmation because I had to buy tickets at the airport one hour before the flight two times already and that sucked very much. It also includes the Visa knowledge database, e.g. British visas are tricky.
+- [ ] Increase the transparency of the events happening at source{d}
+    - Rationale: there are meetups, get togethers, holidays, beaconfellows, etc. at source{d} Many, MANY times people missed them in the calendar. Even if there are calendar records, it is so easy to forget about them. How about creating a Slack bot which will post event notifications a few (1) days before?
+- [ ] Resolve the wifi connectivity problems in Madrid office
+    - I walk with my laptop from the kitchen to my work place and it just hangs. It is not only because of Ubuntu :trollface: Anna and Esther confessed that they had the same problems. And of course MEETING ROOMS CONNECTION QUALITY ISSUES.
 
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
