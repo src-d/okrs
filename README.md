@@ -24,6 +24,7 @@
 ## Being a better company to work at
 
 - [ ] Conduct an engineering survey to improve development practices for Q3 and Q4
+- [ ] Conduct empathy sessions for cross-team documentation validation
 - [ ] Regression Test, Benchmarks and Deploy platform (CD?)
 - [ ] Improve Logs, CLI, and other guides.
 - [ ] Make it easy to update and maintain PGA.
