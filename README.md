@@ -6,8 +6,8 @@
 
 - [ ] Improve gitbase performance
 - [ ] Release a more stable gitbase version
-- [ ] Integration of gitbase with engine
-- [ ] New engine interface based on gitbase
+- [ ] Engine using gitbase as backend
+- [ ] Change engine schema to match gitbase's
 - [ ] [P1] gitbase interoperability with 3rd party tools
 
 ### Babelfish
