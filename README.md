@@ -32,7 +32,13 @@
 ### Launch source{d} lookout alpha at GopherCon
 
 - [ ] Release a production ready analyzer SDK
+  * Any developer able to understand how to create a new analizer
+  * Testing analyzer locally is easy: streamlined to 1-2 shell commands
 - [ ] Release a production ready service
+  * source{d} hosted deployment of lookout service
+  * Private 'status page' of the service health
+  * Automated CI/CD pipeline for staging/production environments
+  * Any OSS project (on Github) able to add lookout service (through 'Github Apps' flow)
 - [ ] Release a beta of the style analyzer[s]
 
 ## Store the world's source code
@@ -50,3 +56,9 @@
 
 ## Advance ML-on-Code awareness
 
+### App team activities
+
+- [ ] Speak at at least 1 conference
+- [ ] Write at least 1 blog post
+- [ ] Contribute at least 2 papers on awesome-mloncode
+- [ ] Support the community with source{d} tech stack and MLonCode on Slack
