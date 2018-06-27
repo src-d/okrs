@@ -4,9 +4,11 @@
 
 ### gitbase & engine
 
-- [ ] Stable & Performance Release
+- [ ] Improve gitbase performance
+- [ ] Release a more stable gitbase version
 - [ ] Integration of gitbase with engine
 - [ ] New engine interface based on gitbase
+- [ ] [P1] gitbase interoperability with 3rd party tools
 
 ### Babelfish
 
