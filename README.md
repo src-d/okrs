@@ -32,13 +32,25 @@
 ### Launch source{d} lookout alpha at GopherCon
 
 - [ ] Release a production ready analyzer SDK
-  * Any developer able to understand how to create a new analizer
-  * Testing analyzer locally is easy: streamlined to 1-2 shell commands
+  * Build alpha/beta versions of an analyser SDK
+  * Build a simple reference example of analyzer
+  * Any developer is able to understand how to create a new analyzer
+  * Testing an analyzer locally is easy: streamlined to 1-2 shell commands
+  * Release a production ready SDK with API stability guarantees
+
 - [ ] Release a production ready service
-  * source{d} hosted deployment of lookout service
-  * Private 'status page' of the service health
-  * Automated CI/CD pipeline for staging/production environments
-  * Any OSS project (on Github) able to add lookout service (through 'Github Apps' flow)
+  * Use the lookout service internally
+    - build alpha/beta versions of the service (learning from PoC)
+    - automated CI/CD pipeline to staging
+    - service deployed on a staging environment
+    - 2 source{d} projects enable lookout from staging
+
+  * Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)
+    - automated CI/CD pipeline for production environment
+    - private 'status page' of the service health
+    - service deployed on a production environment
+    - 2 OSS projects besides source{d} enable lookout
+
 - [ ] Release a beta of the style analyzer[s]
 
 ## Store the world's source code
