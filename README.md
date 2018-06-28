@@ -5,18 +5,12 @@
 ### gitbase & engine
 
 - [ ] Improve gitbase performance
-    - [ ] Improve gitbase indexes
-        - [ ] Make indexes take less time to generate
-        - [ ] Make indexes take less disk space
-        - [ ] Make indexes support more comparison expressions
 - [ ] Release a more stable gitbase version
     - [ ] Make regression test
 - [ ] Engine using gitbase as backend
     - [ ] Change engine schema to match gitbase's
     - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 - [ ] [P1] gitbase interoperability with 3rd party tools
-    - [ ] Make compatible with MySQL workbench
-    - [ ] Make compatible with tableau
 
 ### Babelfish
 
