@@ -56,9 +56,3 @@
 
 ## Advance ML-on-Code awareness
 
-### App team activities
-
-- [ ] Speak at at least 1 conference
-- [ ] Write at least 1 blog post
-- [ ] Contribute at least 2 papers on awesome-mloncode
-- [ ] Support the community with source{d} tech stack and MLonCode on Slack
