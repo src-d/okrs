@@ -23,6 +23,10 @@
 
 - [ ] Release a new version with the integration of function similarity
 
+### Improved Code as Data Workflow
+
+- [ ] Release proof-of-concept of single tool for end-to-end code as data workflows
+
 ## Being a better company to work at
 
 - [ ] Setup the ML cluster environment
