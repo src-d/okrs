@@ -27,6 +27,10 @@
 
 - [ ] Release proof-of-concept of single tool for end-to-end code as data workflows
 
+### Demo Cluster
+
+- [ ] Deploy a demo cluster for Code as Data that we can use for demos and 3rd parties
+
 ## Being a better company to work at
 
 - [ ] Setup the ML cluster environment
