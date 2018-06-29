@@ -5,8 +5,13 @@
 ### Get gitbase enterprise ready
 - [ ] Release a stable gitbase version
   - [ ] Add regression testing
-- [ ] Improve gitbase performance to single second responses on most queries 
 - [ ] Ensure gitbase interoperability with 3rd party tools
+
+#### Improve gitbase performance to single second responses on most queries 
+- [ ] **Key results pending an internal engineering meeting**
+- [ ] Switch Engine to use gitbase as a backend
+  - [ ] Change engine schema to match gitbase's
+  - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 
 ### Setup a stable 'Code As Data' deployment in our cluster for BigCompanyG
 
@@ -20,9 +25,6 @@
 ### [P1] Get Gemini enterprise ready
 - [ ] Release a new version with the integration of function similarity
 
-### [P1] Switch Engine to use gitbase as a backend
-- [ ] Change engine schema to match gitbase's
-- [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 
 ## Being a better company to work at
 
