@@ -6,8 +6,10 @@
 
 - [ ] Improve gitbase performance
 - [ ] Release a more stable gitbase version
+    - [ ] Make regression test
 - [ ] Engine using gitbase as backend
-- [ ] Change engine schema to match gitbase's
+    - [ ] Change engine schema to match gitbase's
+    - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 - [ ] [P1] gitbase interoperability with 3rd party tools
 
 ### Babelfish
@@ -59,9 +61,16 @@
 
 ### Stable fetch pipeline
 
-- [ ] Stable and performat borges/rovers
+- [ ] Stable and performant borges/rovers
+    - [ ] Improve regression tests with more use cases
+    - [ ] Keep improving go-git performance
 - [ ] go-borges library, to reuse borges logic in other projects (lookout)
+    - [ ] borges states diagram
+    - [ ] Define a public API for that library studying actual use cases
+    - [ ] Integration tests and regression tests for that library
 - [ ] borges cleanup, documentation and release
+    - [ ] Define documentation summary
+    - [ ] Gitbook integration
 
 ### Production Kubernetes Cluster
 
