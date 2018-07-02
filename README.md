@@ -52,8 +52,8 @@
 - [ ] Improve the formal process of speaking at a conference
 - [ ] Resolve connectivity problems at the Madrid office
 
-#### Setup GPU production cluster for ML
-- [ ] Research and install Kubeflow (or alternatives) to the production cluster
+#### Setup local-gpu cluster for ML
+- [ ] k8s100k500 - deploy ML-specific applications to local-gpu cluster (https://github.com/src-d/feature-idea/issues/52)
 
 #### Improve engineering workflows
 - [ ] Regression Test, Benchmarks and Deploy platform
