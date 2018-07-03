@@ -157,6 +157,7 @@
 - [ ] Gather list of users of each project and classify them according to their profiles
 - [ ] source{d} Engine and/or Automated Code Review Bot featured at minimum 5 conferences
 - [ ] source{d} Engine and/or Automated Code Review Bot featured at minimum 5 meetups
+- [ ] Develop the MlonCode documentation/walkthrough  
 
 ### Define PR & BD Strategy
 - [ ] Develop & pitch source{d}'s unique Open Source Philosophy / Culture to the press and get publication in at least 2 publications
