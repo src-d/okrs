@@ -18,6 +18,26 @@
   - [ ] Announcement talk at GitHub Universe
   - [ ] If not possible for Github Universe define alternative
 
+### Formally map 'Code as Data' enterprise needs
+- [ ] Do 8 user research interviews
+- [ ] Map formal user personas
+- [ ] Map key use cases
+  - [ ] Map features missing & priorities
+
+### Update website to match current reality and needs
+- [ ] Deliver updated landing content
+  - [ ] Product pages
+  - [ ] General content
+- [ ] Add salesforce integration
+  - [ ] Deliver actionable conversion funnel metrics
+- [ ] Update visual style
+- [ ] Map content managing responsibilities
+
+#### Define & design hosted Playground experiences
+- [ ] Babelfish
+- [ ] Gitbase
+- [ ] Engine
+
 ### Setup a stable 'Code As Data' deployment in our cluster for BigCompanyG
 
 ### Release necessary language support for enterprise
@@ -27,8 +47,16 @@
 ### Ensure stability of Babelfish in a production environment
 - [ ] Client/Library improvements, packaging, and stability
 
-### [P1] Get Gemini enterprise ready
+### [P1] Get gemini enterprise ready
 - [ ] Release a new version with the integration of function similarity
+- [ ] Announce gemini publicly
+  - [P1] Deliver gemini product page
+
+#### Formally map gemini enterprise needs
+- [ ] Do 3 user research interviews
+- [ ] Map formal user personas
+- [ ] Map key use cases
+  - [ ] Map features missing & priorities
 
 ## Being a better company to work at
 
@@ -39,6 +67,8 @@
 - [ ] Attract relevant profiles of applicants through our community
 - [ ] Improve the speed of the hiring process from our side
 - [ ] Increase candidate’s motivation and engagement at every interviewing step
+  - [ ] Implement candidate feedback surveys
+  - [ ] Deliver dashboard with actionable metrics
 
 #### Having a more diverse funnel in terms of gender and race
 - [ ] Explicit developer community promotion via social media
@@ -49,7 +79,9 @@
 - [ ] Identify bottlenecks in the hiring process that makes it less remote-friendly and solve them
 
 ### Improve general happiness and communication
-- [ ] Conduct a happiness survey and react to the unveiled issues
+- [ ] Implement periodic employee happiness surveys
+  - [ ] Deliver dashboard with actionable metrics
+  - [ ] Map key problems and successes
 - [ ] Conduct an engineering survey to improve development practices for Q3 and Q4
 - [ ] Conduct empathy sessions for cross-team documentation validation
 - [ ] Improve internal communication for events happening at source{d}
@@ -64,6 +96,10 @@
 - [ ] Improve Logs, CLI, and other guides.
 - [ ] Make it easy to update and maintain PGA.
 
+### Improve financial analysis and reporting
+- [ ] Finish financials processes refactoring
+  - [ ] Deliver financial insights dashboard
+
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
 ### Launch source{d} lookout alpha at GopherCon
@@ -76,6 +112,18 @@
 - [ ] Release a production ready SDK with API stability guarantees
 
 #### Release a production ready service
+
+#### Define key product features
+- [ ] Deliver formal user research
+  - [ ] Do 5 internal user research interviews
+  - [ ] Do 10 external user research interviews
+  - [ ] Do a large-scale community survey
+  - [ ] Estimate quant prevalence of pain points from code reviews/PRs
+- [ ] Map formal user personas
+- [ ] Map key use cases
+  - [ ] Map features & priorities
+- [ ] Design the user experience
+  - [ ] Have over 2/3 of key users report a positive experience
 
 ##### Release a beta of the style analyzer[s]
 - [ ] General code style rules mining under UAST
@@ -174,6 +222,8 @@
 - [ ] Create the newsletter
 - [ ] Curate content and send newsletter weekly
 - [ ] Reach 100 subscribers
+- [ ] Map and measure the conversion funnel
+  - [ ] Deliver actionable metrics dashboard
 
 ### Increase social engagement with #MLonCode #49
 - [ ] Increase hashtag usage on social media channels by X% (TBD with #48)
@@ -181,3 +231,6 @@
 - [ ] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
 - [ ] Post 10 times a week in our multiple social media accounts about #MLonCode
 - [ ] Create a strategy to manage our online communities (slack, etc) and corresponding online marketing
+- [ ] Get periodic & actionable insights from our data
+  - [ ] Automate data collection & storage
+  - [ ] Map DevRel dashboard needs and future direction
