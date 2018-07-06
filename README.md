@@ -203,8 +203,8 @@
 ### Promote current source{d} stack
 - [ ] Write and promote 1 blog post for each project in the stack and how it came to be
 - [ ] Gather list of users of each project and classify them according to their profiles
-- [ ] source{d} Engine and/or Automated Code Review Bot featured at minimum 5 conferences
-- [ ] source{d} Engine and/or Automated Code Review Bot featured at minimum 5 meetups
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 conferences
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 meetups
 - [ ] Develop the MlonCode documentation/walkthrough  
 
 ### Define PR & BD Strategy
@@ -226,7 +226,7 @@
   - [ ] Deliver actionable metrics dashboard
 
 ### Increase social engagement with #MLonCode #49
-- [ ] Increase hashtag usage on social media channels by X% (TBD with #48)
+- [ ] Increase hashtag usage on social media channels by X% (tbd)
 - [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium
 - [ ] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
 - [ ] Post 10 times a week in our multiple social media accounts about #MLonCode
