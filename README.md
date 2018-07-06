@@ -1,5 +1,46 @@
 # OKRs 2018 Q3
 
+* [Bring 'Code as Data' to market with enterprises](#bring-code-as-data-to-market-with-enterprises)
+  + [Get gitbase enterprise ready](#get-gitbase-enterprise-ready)
+    - [Improve gitbase performance to single second responses on most queries](#improve-gitbase-performance-to-single-second-responses-on-most-queries)
+    - [Announce gitbase publicly](#announce-gitbase-publicly)
+  + [Setup a stable 'Code As Data' deployment in our cluster for BigCompanyG](#setup-a-stable-code-as-data-deployment-in-our-cluster-for-bigcompanyg)
+  + [Release necessary language support for enterprise](#release-necessary-language-support-for-enterprise)
+  + [Ensure stability of Babelfish in a production environment](#ensure-stability-of-babelfish-in-a-production-environment)
+  + [[P1] Get Gemini enterprise ready](#p1-get-gemini-enterprise-ready)
+* [Being a better company to work at](#being-a-better-company-to-work-at)
+  + [Successfully hire for each open Role](#successfully-hire-for-each-open-role)
+    - [Having a more diverse funnel in terms of gender and race](#having-a-more-diverse-funnel-in-terms-of-gender-and-race)
+    - [Make our interview process more remote friendly](#make-our-interview-process-more-remote-friendly)
+  + [Improve general happiness and communication](#improve-general-happiness-and-communication)
+    - [Setup local-gpu cluster for ML](#setup-local-gpu-cluster-for-ml)
+    - [Improve engineering workflows](#improve-engineering-workflows)
+* [Bring 'Assisted](#bring-assisted)
+  + [Launch source{d} lookout alpha at GopherCon](#launch-sourced-lookout-alpha-at-gophercon)
+    - [Release a production ready analyzer SDK](#release-a-production-ready-analyzer-sdk)
+    - [Release a production ready service](#release-a-production-ready-service)
+      * [Release a beta of the style analyzer[s]](#release-a-beta-of-the-style-analyzers)
+      * [Build alpha/beta versions of the service (learning from PoC)](#build-alphabeta-versions-of-the-service-learning-from-poc)
+      * [Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)](#any-oss-project-on-github-is-able-to-add-lookout-service-through-github-apps-flow)
+      * [Announce Lookout to the world](#announce-lookout-to-the-world)
+* [Store the world's source code](#store-the-worlds-source-code)
+  + [Reach a stable version on borges & rovers](#reach-a-stable-version-on-borges--rovers)
+    - [Stable and performant borges & rovers](#stable-and-performant-borges--rovers)
+    - [Refactor to go-borges library, to reuse borges logic in other projects (i.e. lookout)](#refactor-to-go-borges-library-to-reuse-borges-logic-in-other-projects-ie-lookout)
+    - [Improve borges documentation](#improve-borges-documentation)
+  + [Release the production kubernetes cluster](#release-the-production-kubernetes-cluster)
+* [Advance MLonCode awareness](#advance-mloncode-awareness)
+  + [Make source{d} the face of MLonCode](#make-sourced-the-face-of-mloncode)
+  + [Create an "MLonCode friends" program](#create-an-mloncode-friends-program)
+  + [Make source{d} a friend of MLonCode academia](#make-sourced-a-friend-of-mloncode-academia)
+  + [Promote current source{d} stack](#promote-current-sourced-stack)
+  + [Define PR & BD Strategy](#define-pr--bd-strategy)
+  + [Define Social Media Strategy](#define-social-media-strategy)
+  + [Create a weekly newsletter for announcements, events, curated content, etc](#create-a-weekly-newsletter-for-announcements-events-curated-content-etc)
+  + [Increase social engagement with MLonCode](#increase-social-engagement-with-mloncode)
+
+___
+
 ## Bring 'Code as Data' to market with enterprises
 
 ### Get gitbase enterprise ready
@@ -133,7 +174,7 @@
 
 ## Advance MLonCode awareness
 
-### Make source{d} the face of #MLonCode
+### Make source{d} the face of MLonCode
 - [ ] Run that workshop at least once at a meetup / conference
 - [ ] Create two demos showing the power of our stack solving a “real problem”
 - [ ] Get at least 6 more collaborators (talk/blog/...) with engineering
@@ -177,9 +218,9 @@
 - [ ] Curate content and send newsletter weekly
 - [ ] Reach 100 subscribers
 
-### Increase social engagement with #MLonCode #49
+### Increase social engagement with MLonCode
 - [ ] Increase hashtag usage on social media channels by X% (tbd)
 - [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium
-- [ ] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
-- [ ] Post 10 times a week in our multiple social media accounts about #MLonCode
+- [ ] Identify 10 speakers at conferences talking about MLonCode, invite them for collaboration / tweet about their talks / partner with them
+- [ ] Post 10 times a week in our multiple social media accounts about MLonCode
 - [ ] Create a strategy to manage our online communities (slack, etc) and corresponding online marketing
