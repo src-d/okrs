@@ -25,7 +25,6 @@
 ### [P1] Get Gemini enterprise ready
 - [ ] Release a new version with the integration of function similarity
 
-
 ## Being a better company to work at
 
 ### Successfully hire for each open Role
@@ -52,8 +51,8 @@
 - [ ] Improve the formal process of speaking at a conference
 - [ ] Resolve connectivity problems at the Madrid office
 
-#### Setup GPU production cluster for ML
-- [ ] Research and install Kubeflow (or alternatives) to the production cluster
+#### Setup local-gpu cluster for ML
+- [ ] k8s100k500 - deploy ML-specific applications to local-gpu cluster (https://github.com/src-d/feature-idea/issues/52)
 
 #### Improve engineering workflows
 - [ ] Regression Test, Benchmarks and Deploy platform
@@ -85,6 +84,7 @@
 
 ##### Build alpha/beta versions of the service (learning from PoC)
 - [ ] Automated CI/CD pipeline to staging
+- [ ] Research and install Kubeflow (or alternatives) to the production cluster
 - [ ] Service deployed on a staging environment
 - [ ] 2 source{d} projects enable lookout from staging
 - [ ] Implement the lookout service internally
