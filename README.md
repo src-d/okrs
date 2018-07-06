@@ -13,6 +13,11 @@
   - [ ] Change engine schema to match gitbase's
   - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 
+#### Announce gitbase publicly
+  - [ ] Figure out date for Gitbase announcement and see what we can do
+  - [ ] Announcement talk at GitHub Universe
+  - [ ] If not possible for Github Universe define alternative
+
 ### Setup a stable 'Code As Data' deployment in our cluster for BigCompanyG
 
 ### Release necessary language support for enterprise
@@ -59,7 +64,8 @@
 - [ ] Improve Logs, CLI, and other guides.
 - [ ] Make it easy to update and maintain PGA.
 
-## Bring 'Assisted Code Review' to developers in the open-source community
+## Bring 'Assisted 
+' to developers in the open-source community
 
 ### Launch source{d} lookout alpha at GopherCon
 
@@ -95,6 +101,15 @@
 - [ ] Service deployed on a production environment
 - [ ] 2 OSS projects besides source{d} enable lookout
 
+##### Announce Lookout to the world
+- [ ] Prepare talk and announcement at GopherCon
+- [ ] Product webpage with description, videos, and instructions on how to use it
+- [ ] Write press release, blog post, etc
+- [ ] Plan social media strategy (twitter, reddit, hackernews ...)
+- [ ] Schedule an online meetup with technical details about the bot
+- [ ] Find alpha testers for bot and work with them closely until launch
+- [ ] Identify users after launch and partner with them
+
 ## Store the world's source code
 
 ### Reach a stable version on borges & rovers
@@ -117,3 +132,54 @@
 - [ ] HA of databases and other persistent services.
 
 ## Advance MLonCode awareness
+
+### Make source{d} the face of #MLonCode
+- [ ] Run that workshop at least once at a meetup / conference
+- [ ] Create two demos showing the power of our stack solving a “real problem”
+- [ ] Get at least 6 more collaborators (talk/blog/...) with engineering
+- [ ] Improve the formal process of our internal speaker program in collaboration with Esther and get buyin from Engineering
+
+### Create an "MLonCode friends" program
+- [ ] Define "MLonCode friends" program goals & value proposition
+- [ ] Identify potential members and invite them officially, get 20 to join
+- [ ] Welcome each member personally and provide some swag
+- [ ] Classify members by profile (speakers, researchers, industry/academia, event organizers, etc)
+- [ ] Engage with members and enable them to grow their influence and our message
+
+### Make source{d} a friend of MLonCode academia  
+- [ ] Create a list of all academic events relevant to MLonCode until end of 2019
+  - [ ] Decide level of involvement (attending, presenting, sponsoring, etc)
+- [ ] Release CodeNet with one challenge on top of PGA
+- [ ] Consider and plan/reject creation of competition on Kaggle
+- [ ] 3 citations of source{d} datasets / tech in academia endorsed documents
+- [ ] Develop and organize at least 3 Enterprise workshops in Q3
+
+### Promote current source{d} stack
+- [ ] Write and promote 1 blog post for each project in the stack and how it came to be
+- [ ] Gather list of users of each project and classify them according to their profiles
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 conferences
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 meetups
+- [ ] Develop the MlonCode documentation/walkthrough  
+
+### Define PR & BD Strategy
+- [ ] Develop & pitch source{d}'s unique Open Source Philosophy / Culture to the press and get publication in at least 2 publications
+- [ ] Onboard a PR agency to support product annoucements
+- [ ] Identify at least 1 BD led opportunity for joint announcement i.e GitHub / GitLab integration, etc
+
+### Define Social Media Strategy
+- [ ] Define infrastructure for this (Buffer, etc)
+- [ ] Slack: figure out strategy and onboarding process
+- [ ] Increase followers on Twitter / Facebook /  Linkedin ...
+- [ ] Provide an alternate method to Slack for communication: forum?
+
+### Create a weekly newsletter for announcements, events, curated content, etc
+- [ ] Create the newsletter
+- [ ] Curate content and send newsletter weekly
+- [ ] Reach 100 subscribers
+
+### Increase social engagement with #MLonCode #49
+- [ ] Increase hashtag usage on social media channels by X% (tbd)
+- [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium
+- [ ] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
+- [ ] Post 10 times a week in our multiple social media accounts about #MLonCode
+- [ ] Create a strategy to manage our online communities (slack, etc) and corresponding online marketing
