@@ -1,198 +1,268 @@
-# Objectives & Key Results at source{d}
+# OKRs 2018 Q3
+- [OKRs 2018 Q3](#okrs-2018-q3)
+  - [Bring 'Code as Data' to market with enterprises](#bring-code-as-data-to-market-with-enterprises)
+    - [Get gitbase enterprise ready](#get-gitbase-enterprise-ready)
+      - [Improve gitbase performance to single second responses on most queries](#improve-gitbase-performance-to-single-second-responses-on-most-queries)
+      - [Announce gitbase publicly](#announce-gitbase-publicly)
+    - [Release necessary language support for enterprise](#release-necessary-language-support-for-enterprise)
+    - [Ensure stability of Babelfish in a production environment](#ensure-stability-of-babelfish-in-a-production-environment)
+    - [Improve the 'Code as Data' individual user experience](#improve-the-code-as-data-individual-user-experience)
+    - [Have an available demo cluster](#have-an-available-demo-cluster)
+    - [Define a delivery strategy for the enterprise](#define-a-delivery-strategy-for-the-enterprise)
+    - [[P1] Get Gemini enterprise ready](#p1-get-gemini-enterprise-ready)
+  - [Being a better company to work at](#being-a-better-company-to-work-at)
+    - [Successfully hire for each open role](#successfully-hire-for-each-open-role)
+      - [Having a more diverse funnel in terms of gender and race](#having-a-more-diverse-funnel-in-terms-of-gender-and-race)
+      - [Make our interview process more remote friendly](#make-our-interview-process-more-remote-friendly)
+    - [Improve general happiness and communication](#improve-general-happiness-and-communication)
+      - [Improve deployment of ML applications to the local GPU cluster](#improve-deployment-of-ml-applications-to-the-local-gpu-cluster)
+      - [Improve engineering workflows](#improve-engineering-workflows)
+  - [Bring 'Assisted Code Review' to developers in the open-source community](#bring-assisted-code-review-to-developers-in-the-open-source-community)
+    - [Launch source{d} lookout alpha at GopherCon](#launch-sourced-lookout-alpha-at-gophercon)
+      - [Release a production ready analyzer SDK](#release-a-production-ready-analyzer-sdk)
+      - [Release a production ready service](#release-a-production-ready-service)
+        - [Release a beta of the style analyzer[s]](#release-a-beta-of-the-style-analyzers)
+        - [Build alpha/beta versions of the service (learning from PoC)](#build-alphabeta-versions-of-the-service-learning-from-poc)
+        - [Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)](#any-oss-project-on-github-is-able-to-add-lookout-service-through-github-apps-flow)
+        - [Announce Lookout to the world](#announce-lookout-to-the-world)
+  - [Store the world's source code](#store-the-worlds-source-code)
+    - [Reach a stable version on borges & rovers](#reach-a-stable-version-on-borges-rovers)
+      - [Stable and performant borges & rovers](#stable-and-performant-borges-rovers)
+      - [Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout)](#refactor-to-go-borges-library-to-reuse-borges-logic-in-other-projects-ie-lookout)
+      - [Improve borges documentation](#improve-borges-documentation)
+    - [Release the production kubernetes cluster](#release-the-production-kubernetes-cluster)
+  - [Advance MLonCode awareness](#advance-mloncode-awareness)
+    - [Make source{d} the face of MLonCode](#make-sourced-the-face-of-mloncode)
+    - [Create an "MLonCode friends" program](#create-an-mloncode-friends-program)
+    - [Make source{d} a friend of MLonCode academia](#make-sourced-a-friend-of-mloncode-academia)
+    - [Promote current source{d} stack](#promote-current-sourced-stack)
+    - [Define PR & BD Strategy](#define-pr-bd-strategy)
+    - [Define Social Media Strategy](#define-social-media-strategy)
+    - [Create a weekly newsletter for announcements, events, curated content, etc.](#create-a-weekly-newsletter-for-announcements-events-curated-content-etc)
+    - [Increase social engagement with MLonCode](#increase-social-engagement-with-mloncode)
 
-The list and tree below is automatically generated from the issues in this repository, using our [OKR GitHub tool](https://github.com/dennwc/okrs)
+___
 
--------------
+## Bring 'Code as Data' to market with enterprises
 
-**Progress:** 0/2
+### Get gitbase enterprise ready
 
-### Improve our Monthly Financials Reporting Process
+- [ ] Release a stable gitbase version
+  - [ ] Add regression testing
+- [ ] Ensure gitbase interoperability with 3rd party tools
 
-[Source page](https://github.com/src-d/okrs/issues/58)
+#### Improve gitbase performance to single second responses on most queries 
 
-**Progress:** 0%
+- [ ] **Key results pending an internal engineering meeting**
+- [ ] Switch Engine to use gitbase as a backend
+  - [ ] Change engine schema to match gitbase's
+  - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 
-* [P0] Create a Monthly Financials Dashboard
-* [P0] Refactor existing Excel spreadsheets
-* [P0] Successfully incorporate US expenses to Reporting Process
+#### Announce gitbase publicly
 
-### Vision: Being the leading company for ML on Code
+- [ ] Figure out date for Gitbase announcement and see what we can do
+- [ ] Announcement talk at GitHub Universe
+- [ ] If not possible for Github Universe define alternative
 
-[Source page](https://github.com/src-d/okrs/issues/1)
+### Release necessary language support for enterprise
 
-**Progress:** 0%
+- [ ] C# driver
+- [ ] C/C++ driver
 
-* Store the world’s source code ([#5](https://github.com/src-d/okrs/issues/5))
-	* [P0] Store all public repositories from GitHub, BitBucket and self-hosted cgit ([#14](https://github.com/src-d/okrs/issues/14))
-		* [P0] Stable pipeline with rovers and borges
-		* [P0] Get computing and storage production-ready cluster to 60 machines
-	* [P1] Keep repositories never more than 30 days outdated ([#15](https://github.com/src-d/okrs/issues/15))
-		* [P1] Optimize borges to keep up with all repository updates within 30 days ([#27](https://github.com/src-d/okrs/issues/27))
-			* [P0] improve downloading of new repos by 50%
-			* [P1] improve update rooted repositories by 50%
-			* [P1] increase job throghtput by 30%
-			* [P2] decrease timeout errors by 30%
-			* [P2] decrease pod restarts by 50%
-* Being a better company to work at ([#4](https://github.com/src-d/okrs/issues/4))
-	* [P0] Successfully implement best practices for being a remote company ([#40](https://github.com/src-d/okrs/issues/40))
-		* [P0] Create a study on employees sentiment
-	* [P0] Having a more diverse hiring funnel (increase diversity in terms of gender and race)
-	* [P0] Improve instrumentation of the clusters for all teams ([#59](https://github.com/src-d/okrs/issues/59))
-		* [P0] Store pipeline cluster logs in a queryable manner ([#45](https://github.com/src-d/okrs/issues/45))
-			* [P0] Store logs
-			* [P1] Be able to query logs
-		* [P0] Support tracing logging
-	* [P1] Successfully execute OKRs methodology
-	* [P1] Remove technical friction between multiple teams ([#19](https://github.com/src-d/okrs/issues/19))
-		* [P0] Introduce monthly empathy sessions or other mechanism where different teams get to try other teams' tools
-	* Having a more diverse funnel in terms of gender and race ([#36](https://github.com/src-d/okrs/issues/36))
-		* [P1] Identify and solve 2 potential bottlenecks
-		* [P1] Bi-weekly tweets mentioning we are hiring and want more women and non-white people in our team
-		* [P2] Sourcing through existing communities (eg. women developer communities)
-	* Develop a remote on-boarding process ([#34](https://github.com/src-d/okrs/issues/34))
-		* [P1] Gain feedback on onboarding from every member who joined after the current implementation of onboarding guide
-		* [P1] Have a complete onboarding guide on GitHub
-	* Make our interview process more remote friendly ([#33](https://github.com/src-d/okrs/issues/33))
-		* [P0] Conduct 2 on-site interviews with an interviewer being remote during the candidate is on-site
-		* [P1] Plan detailed steps of the fully-remote interviews to be applied in Q3
-		* [P1] Tune the process with what we learned from these interviews ([#55](https://github.com/src-d/okrs/issues/55))
-			* [P0] Create research on candidates' sentiment towards on-site and remote interviews
-	* Hire for each open role ([#30](https://github.com/src-d/okrs/issues/30))
-		* [P0] Attract **relevant** profiles of applicants through developer community
-		* [P1] Make one hire for each open role
-		* [P1] Increase candidate’s motivation and engagement at every interviewing step
-		* [P1] Have a quick process from our side
-		* [P1] Gain feedback from the candidates for the hiring process
-* Build a go-to-market strategy ([#3](https://github.com/src-d/okrs/issues/3))
-	* [P0] Determine which product category (Security & Compliance, Automated Code Review, or QA & Testing)
-	* [P0] Determine licensing strategy
-	* [P0] Determine go-to-market model
-	* [P1] Determine early pricing approach
-	* Determine which product category (Security & Compliance, Automated Code Review, or QA & Testing) ([#6](https://github.com/src-d/okrs/issues/6))
-		* [P0] Key result x
-		* [P1] Deliver structured user research ([#7](https://github.com/src-d/okrs/issues/7))
-			* [P0] Define and describe the key use case segments
-			* [P0] Map formally the personas for our products
-			* [P1] Conduct 15 user research interviews
-			* [P1] Conduct quantitative research over the Slack community
-* Having successful users of source{d} ([#2](https://github.com/src-d/okrs/issues/2))
-	* [P0] Partner with source{d} users ([#46](https://github.com/src-d/okrs/issues/46))
-		* [P0] Partner with 4 strategic users (2 in academia / 2 in industry) and provide guides / workshops / samples as they need them
-		* [P1] Meet with those users monthly and gather feedback from their experience
-		* [P1] Write friction logs / blog posts from their failure / success stories
-	* [P0] Users are able to work with PGA ([#11](https://github.com/src-d/okrs/issues/11))
-		* [P0] Make engine suitable to run over PGA ([#17](https://github.com/src-d/okrs/issues/17))
-			* [P0] Fix the reported errors and do not crash
-			* [P1] Report errors with meaning information for tracing the root causes
-		* [P0] Make UAST usable without extensive knowledge of Babelfish ([#12](https://github.com/src-d/okrs/issues/12))
-			* [P0] Launch higher level UAST abstractions for Babelfish ([#20](https://github.com/src-d/okrs/issues/20))
-				* [P0] Higher-level APIs to list simple AST constructs ([#21](https://github.com/src-d/okrs/issues/21))
-					* [P0] UAST structure normalization
-					* [P0] Port all existing beta language drivers
-				* [P1] Higher-level categories for nodes.
-				* [P2] Structural pointers.
-			* [P0] Update Bblfsh playground ([#56](https://github.com/src-d/okrs/issues/56))
-				* [P0] All beta drivers to be supported automatically.
-				* [P1] Interactive UAST visualization/manipulation (same as in gitbase playground).
-				* [P1] Have reusable components between bblfsh dashboard and gitbase playground.
-			* [P0] Have over 2/3 of key users to report feature as satisfactory
-		* [P1] Set PGA update policy and perform it ([#41](https://github.com/src-d/okrs/issues/41))
-			* [P0] Specify the updates and versioning policy.
-			* [P1] Add the regular PGA dataset update job to the full-scale data pipeline.
-	* [P0] Launch gitbase and its playground ([#8](https://github.com/src-d/okrs/issues/8))
-		* [P0] Make gitbase suitable to run over PGA ([#16](https://github.com/src-d/okrs/issues/16))
-			* [P0] Make gitbase better suited for rooted repositories
-			* [P0] Make gitbase queries on PGA not crash
-			* [P1] Instrument gitbase to be able to trace performance
-			* [P1] Improve performance of gitbase over PGA
-		* [P0] Design the gitbase playground ([#39](https://github.com/src-d/okrs/issues/39))
-			* [P0] Competitive Research
-			* [P0] Wireframing
-			* [P1] Usability Testing
-			* [P1] Working Prototype
-			* [P1] User Research Activities & Report
-		* [P0] Build gitbase playground ([#51](https://github.com/src-d/okrs/issues/51))
-			* [P0] Run gitbase playground locally (with 1 command, for 1 user)
-			* [P0] Build web application that allows users to interact with gitbase
-			* [P1] Create new interactive visualization of UAST (and apply to both playgrounds)
-		* [P0] Launch a hosted version of the playground (>1 concurrent user)
-		* [P0] Have over 50 users in the first month after public release
-		* [P1] Get over 2/3 of user positive feedback
-	* [P0] Launch Gemini application: file-level similarity ([#54](https://github.com/src-d/okrs/issues/54))
-		* [P0] Formally launch Gemini as a standalone application of our stack
-		* [P0] Run on a single machine, for small number of repositories
-		* [P1] Run on Apache Spark cluster, for full PGA
-		* [P2] Run on Apache Spark cluster, for full world dataset
-	* [P0] Deliver a reference implementation of function-level similarity ([#43](https://github.com/src-d/okrs/issues/43))
-		* [P0] XXX Need proper key results for the R&D
-		* [P0] Update Code Annotation Tool to support function level ([#57](https://github.com/src-d/okrs/issues/57))
-			* [P0] Function-level is supported at CAT for labeling datasets
-			* [P1] Reviewer part of CAT uses Feature Extractor REST API from ML
-		* [P0] Annotate the dataset of XXX pairs of functions
-	* [P0] Define the code review application product ([#9](https://github.com/src-d/okrs/issues/9))
-		* [P0] Explore interaction flows with developers ([#47](https://github.com/src-d/okrs/issues/47))
-			* [P0] Implement a Go PR review bot able to run multiple static analysis tools, make it available to specific users and gather feedback
-			* [P1] Add “do not reinvent the wheel” feature to the bot based on gemini function duplication
-			* [P1] Make bot language independent, consider Docker + gRPC based infra
-		* [P0] Launch Gemini application: file-level similarity ([#54](https://github.com/src-d/okrs/issues/54))
-			* [P0] Formally launch Gemini as a standalone application of our stack
-			* [P0] Run on a single machine, for small number of repositories
-			* [P1] Run on Apache Spark cluster, for full PGA
-			* [P2] Run on Apache Spark cluster, for full world dataset
-		* [P0] Research: run Gemini on some repos, generate PR-level report ([#53](https://github.com/src-d/okrs/issues/53))
-			* [P0] A DB \w Gemini hashes over some N hand-picked popular repos
-			* [P0] A Report on file similarity, for each PR in those repos
-		* [P0] Build GitHub bot for PR-level feedback ([#52](https://github.com/src-d/okrs/issues/52))
-			* [P0] PoC of the Github bot, \w ability to run different PR-level applications-
-			* Design, build it (following regular engineering process) with ability to run it locally
-			* Have Gemini integrated there, as a first application
-			* Host it on src-d infra
-		* [P0] Have at least 2 external OSS projects to adopt it
-		* [P1] Get over 2/3 of positive user feedback
-	* [P0] Increasing the # of users of the source{d} stack ([#10](https://github.com/src-d/okrs/issues/10))
-		* [P0] Make #MLonCode a thing ([#49](https://github.com/src-d/okrs/issues/49))
-			* [P0] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium
-			* [P1] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
-			* [P2] post 5 times a day in our multiple social media accounts about #MLonCode
-			* [P2] create a strategy to manage our online communities (slack, etc) and corresponding online marketing
-		* [P0] Make source{d} the face of #MLonCode ([#50](https://github.com/src-d/okrs/issues/50))
-			* [P0] Develop half a day workshop on getting started with #MLonCode with source{d} stack (PGA, gitbase?, engine, etc)
-			* [P1] Run that workshop at least once at a meetup / conference
-			* [P0] Create a new talk on the future of #MLonCode and deliver it at least four times (existing confs and meetups)
-			* [P1] Make that workshop and talk available online
-			* [P1] Create two demos showing the power of our stack solving a “real problem”
-			* [P2] Determine what percentage of time source{d} engineers should spend working on docs/tutorials/talks/etc
-		* [P0] Make source{d} the lead of MLonCode research ([#42](https://github.com/src-d/okrs/issues/42))
-			* [P0] Create and maintain a research log with TL;DR summaries of research read
-			* [P1] Publish 6 ML blog posts in Q2
-			* [P2] Speak about ML on >4 relevant conferences
-			* [P2] Reach 1,000 cumulative upvotes of new blog posts on Reddit
-		* [P0] Enable sharing and publishing MLonCode models ([#44](https://github.com/src-d/okrs/issues/44))
-			* [P0] Define and design the product for model sharing (relates to
-			* [P1] Conduct user research with all key users (e.g.: key academic groups, users of our stack).
-		* [P0] Release updated content for sourced.tech ([#13](https://github.com/src-d/okrs/issues/13))
-			* [P0] Create a content strategy plan ([#35](https://github.com/src-d/okrs/issues/35))
-				* [P0] Editorial Environment Setup
-				* [P0] Customer Journeys
-				* [P0] Content Model
-				* [P0] Copywriting
-				* [P0] Metrics & Evaluation Analytics Setup
-				* [P1] Information Architecture
-				* [P2] Establish a Content Management Plan
-			* [P1] Update brand touchpoints according to content plan
-			* [P1] Apply new Visual Style to sourced.tech ([#32](https://github.com/src-d/okrs/issues/32))
-				* [P0] Visual Artifacts Study
-				* [P1] Research
-				* [P1] Chromatic Palete Study
-				* [P1] Typography Study
-				* [P1] Initial Proposals
-				* [P1] Pure css update PR
-			* [P1] Publish the CAT case-study development post on Medium ([#38](https://github.com/src-d/okrs/issues/38))
-				* [P0] Write a blog post regarding the process, methodologies and collaboration flow between teams on CAT
-	* Define DevRel organization ([#48](https://github.com/src-d/okrs/issues/48))
-		* [P0] Describe the metrics of devrel success
-		* [P0] Set monitoring up for all processes valuable to devrel
-		* [P1] Create a dashboard displaying those metrics
-		* [P0] Implement kanban processes in DevRel, follow the source{d} Engineering Methodology
-		* [P0] Set up biweekly sync-ups with Eiso, Marcelo, Maximo, and Fernanda
+### Ensure stability of Babelfish in a production environment
 
+- [ ] Client/Library improvements, packaging, and stability
+
+### Improve the 'Code as Data' individual user experience
+
+- [ ] Release proof-of-concept of a single CLI tool experience for end-to-end code as data workflow experience
+
+### Have an available demo cluster
+
+- [ ] Deploy a demo cluster for 'Code as Data' that we can use for demos and 3rd parties
+
+### Define a delivery strategy for the enterprise
+
+- [ ] Test deployment for faux-customer
+
+### [P1] Get Gemini enterprise ready
+
+- [ ] Release a new version with the integration of function similarity
+
+## Being a better company to work at
+
+### Successfully hire for each open role
+
+- [ ] Hire a VP of Engineering
+- [ ] Develop a candidate pipeline for VP of Sales
+- [ ] Improve candidate pipeline on Infrastructure Role
+- [ ] Attract relevant profiles of applicants through our community
+- [ ] Improve the speed of the hiring process from our side
+- [ ] Increase candidate’s motivation and engagement at every interviewing step
+
+#### Having a more diverse funnel in terms of gender and race
+
+- [ ] Explicit developer community promotion via social media
+- [ ] Proactively reaching out to diverse communities
+- [ ] Proper updates to the website & guide to promote multi-national and cultural environment
+
+#### Make our interview process more remote friendly
+
+- [ ] Identify bottlenecks in the hiring process that makes it less remote-friendly and solve them
+
+### Improve general happiness and communication
+
+- [ ] Conduct a happiness survey and react to the unveiled issues
+- [ ] Conduct an engineering survey to improve development practices for Q3 and Q4
+- [ ] Conduct empathy sessions for cross-team documentation validation
+- [ ] Improve internal communication for events happening at source{d}
+- [ ] Improve the formal process of speaking at a conference
+- [ ] Resolve connectivity problems at the Madrid office
+
+#### Improve deployment of ML applications to the local GPU cluster 
+
+- [ ] Create the design document
+- [ ] Specify the requirements: programs and services needed in the GPU cluster
+- [ ] Deploy the design document requirements
+
+#### Improve engineering workflows
+
+- [ ] Regression Test, Benchmarks and Deploy platform
+- [ ] Improve Logs, CLI, and other guides.
+- [ ] Make it easy to update and maintain PGA.
+
+## Bring 'Assisted Code Review' to developers in the open-source community
+
+### Launch source{d} lookout alpha at GopherCon
+
+#### Release a production ready analyzer SDK
+
+- [ ] Build alpha/beta versions of an analyser SDK
+- [ ] Build a simple reference example of analyzer
+- [ ] Any developer is able to understand how to create a new analyzer
+- [ ] Testing an analyzer locally is easy: streamlined to 1-2 shell commands
+- [ ] Release a production ready SDK with API stability guarantees
+
+#### Release a production ready service
+
+##### Release a beta of the style analyzer[s]
+
+- [ ] General code style rules mining under UAST
+- [ ] General code style rules mining over UAST
+  - [ ] Iterate the higher level UAST abstractions to fix and maintain
+- [ ] Naming style suggestion
+  - [ ] Incorporate the identifier splitter inside sourced-ml extraction pipeline
+- [ ] Typos correction in names
+- [ ] One-line best practices mining
+- [ ] Release UAST diffing
+
+##### Build alpha/beta versions of the service (learning from PoC)
+
+- [ ] Automated CI/CD pipeline to staging
+- [ ] Research and install Kubeflow (or alternatives) to the production cluster
+- [ ] Service deployed on a staging environment
+- [ ] 2 source{d} projects enable lookout from staging
+- [ ] Implement the lookout service internally
+
+##### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)
+
+- [ ] Automated CI/CD pipeline for production environment
+- [ ] Private 'status page' of the service health
+- [ ] Service deployed on a production environment
+- [ ] 2 OSS projects besides source{d} enable lookout
+
+##### Announce Lookout to the world
+
+- [ ] Prepare talk and announcement at GopherCon
+- [ ] Product webpage with description, videos, and instructions on how to use it
+- [ ] Write press release, blog post, etc
+- [ ] Plan social media strategy (twitter, reddit, hackernews ...)
+- [ ] Schedule an online meetup with technical details about the bot
+- [ ] Find alpha testers for bot and work with them closely until launch
+- [ ] Identify users after launch and partner with them
+
+## Store the world's source code
+
+### Reach a stable version on borges & rovers
+
+#### Stable and performant borges & rovers
+
+- [ ] Improve regression tests with more use cases
+- [ ] Keep improving go-git performance
+
+#### Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout)
+
+- [ ] Borges states diagram
+- [ ] Define a public API for that library studying actual use cases
+- [ ] Integration tests and regression tests for that library
+
+#### Improve borges documentation
+
+- [ ] Define documentation summary
+- [ ] Gitbook integration
+
+### Release the production kubernetes cluster
+
+- [ ] Release of the production cluster, and run rovers, borges and lookout, on it
+- [ ] HA of databases and other persistent services.
+
+## Advance MLonCode awareness
+
+### Make source{d} the face of MLonCode
+
+- [ ] Run that workshop at least once at a meetup / conference
+- [ ] Create two demos showing the power of our stack solving a “real problem”
+- [ ] Get at least 6 more collaborators (talk/blog/...) with engineering
+- [ ] Improve the formal process of our internal speaker program in collaboration with Esther and get buyin from Engineering
+
+### Create an "MLonCode friends" program
+
+- [ ] Define "MLonCode friends" program goals & value proposition
+- [ ] Identify potential members and invite them officially, get 20 to join
+- [ ] Welcome each member personally and provide some swag
+- [ ] Classify members by profile (speakers, researchers, industry/academia, event organizers, etc)
+- [ ] Engage with members and enable them to grow their influence and our message
+
+### Make source{d} a friend of MLonCode academia
+
+- [ ] Create a list of all academic events relevant to MLonCode until end of 2019
+  - [ ] Decide level of involvement (attending, presenting, sponsoring, etc)
+- [ ] Release CodeNet with one challenge on top of PGA
+- [ ] Consider and plan/reject creation of competition on Kaggle
+- [ ] 3 citations of source{d} datasets / tech in academia endorsed documents
+- [ ] Develop and organize at least 3 Enterprise workshops in Q3
+
+### Promote current source{d} stack
+
+- [ ] Write and promote 1 blog post for each project in the stack and how it came to be
+- [ ] Gather list of users of each project and classify them according to their profiles
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 conferences
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 meetups
+- [ ] Develop the MlonCode documentation/walkthrough  
+
+### Define PR & BD Strategy
+
+- [ ] Develop & pitch source{d}'s unique Open Source Philosophy / Culture to the press and get publication in at least 2 publications
+- [ ] Onboard a PR agency to support product annoucements
+- [ ] Identify at least 1 BD led opportunity for joint announcement i.e GitHub / GitLab integration, etc
+
+### Define Social Media Strategy
+
+- [ ] Define infrastructure for this (Buffer, etc)
+- [ ] Slack: figure out strategy and onboarding process
+- [ ] Increase followers on Twitter / Facebook /  Linkedin ...
+- [ ] Provide an alternate method to Slack for communication: forum?
+
+### Create a weekly newsletter for announcements, events, curated content, etc.
+
+- [ ] Create the newsletter
+- [ ] Curate content and send newsletter weekly
+- [ ] Reach 100 subscribers
+
+### Increase social engagement with MLonCode
+
+- [ ] Increase hashtag usage on social media channels by X% (tbd)
+- [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium
+- [ ] Identify 10 speakers at conferences talking about MLonCode, invite them for collaboration / tweet about their talks / partner with them
+- [ ] Post 10 times a week in our multiple social media accounts about MLonCode
+- [ ] Create a strategy to manage our online communities (slack, etc) and corresponding online marketing
