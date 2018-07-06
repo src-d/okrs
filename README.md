@@ -15,7 +15,7 @@
   + [Improve general happiness and communication](#improve-general-happiness-and-communication)
     - [Setup local-gpu cluster for ML](#setup-local-gpu-cluster-for-ml)
     - [Improve engineering workflows](#improve-engineering-workflows)
-* [Bring 'Assisted](#bring-assisted)
+* [Bring 'Assisted Code Review' to developers in the open-source community](#bring-assisted-code-review-to-developers-in-the-open-source-community)
   + [Launch source{d} lookout alpha at GopherCon](#launch-sourced-lookout-alpha-at-gophercon)
     - [Release a production ready analyzer SDK](#release-a-production-ready-analyzer-sdk)
     - [Release a production ready service](#release-a-production-ready-service)
@@ -105,8 +105,7 @@ ___
 - [ ] Improve Logs, CLI, and other guides.
 - [ ] Make it easy to update and maintain PGA.
 
-## Bring 'Assisted 
-' to developers in the open-source community
+## Bring 'Assisted Code Review' to developers in the open-source community
 
 ### Launch source{d} lookout alpha at GopherCon
 
