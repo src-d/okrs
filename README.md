@@ -64,7 +64,8 @@
 - [ ] Improve Logs, CLI, and other guides.
 - [ ] Make it easy to update and maintain PGA.
 
-## Bring 'Assisted Code Review' to developers in the open-source community
+## Bring 'Assisted 
+' to developers in the open-source community
 
 ### Launch source{d} lookout alpha at GopherCon
 
@@ -155,8 +156,8 @@
 ### Promote current source{d} stack
 - [ ] Write and promote 1 blog post for each project in the stack and how it came to be
 - [ ] Gather list of users of each project and classify them according to their profiles
-- [ ] source{d} Engine and/or Automated Code Review Bot featured at minimum 5 conferences
-- [ ] source{d} Engine and/or Automated Code Review Bot featured at minimum 5 meetups
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 conferences
+- [ ] source{d} Engine and/or Lookout featured at minimum 5 meetups
 - [ ] Develop the MlonCode documentation/walkthrough  
 
 ### Define PR & BD Strategy
