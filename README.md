@@ -102,8 +102,10 @@ ___
 - [ ] Improve the formal process of speaking at a conference
 - [ ] Resolve connectivity problems at the Madrid office
 
-#### Setup local-gpu cluster for ML
-- [ ] k8s100k500 - deploy ML-specific applications to local-gpu cluster (https://github.com/src-d/feature-idea/issues/52)
+#### Improve deployment of ML applications to the local GPU cluster 
+- [ ] Create the design document
+- [ ] Specify the requirements: programs and services needed in the GPU cluster
+- [ ] Deploy the design document requirements
 
 #### Improve engineering workflows
 - [ ] Regression Test, Benchmarks and Deploy platform
