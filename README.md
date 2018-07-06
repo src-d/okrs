@@ -25,7 +25,6 @@
 ### [P1] Get Gemini enterprise ready
 - [ ] Release a new version with the integration of function similarity
 
-
 ## Being a better company to work at
 
 ### Successfully hire for each open Role
@@ -85,6 +84,7 @@
 
 ##### Build alpha/beta versions of the service (learning from PoC)
 - [ ] Automated CI/CD pipeline to staging
+- [ ] Research and install Kubeflow (or alternatives) to the production cluster
 - [ ] Service deployed on a staging environment
 - [ ] 2 source{d} projects enable lookout from staging
 - [ ] Implement the lookout service internally
