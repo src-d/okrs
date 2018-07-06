@@ -4,7 +4,8 @@
   + [Get gitbase enterprise ready](#get-gitbase-enterprise-ready)
     - [Improve gitbase performance to single second responses on most queries](#improve-gitbase-performance-to-single-second-responses-on-most-queries)
     - [Announce gitbase publicly](#announce-gitbase-publicly)
-  + [Setup a stable 'Code As Data' deployment in our cluster for BigCompanyG](#setup-a-stable-code-as-data-deployment-in-our-cluster-for-bigcompanyg)
+  + [Improve the 'Code as Data' individual user experience](#improve-the-code-as-data-individual-user-experience)
+  + [Have an available demo cluster](#have-an-available-demo-cluster)
   + [Release necessary language support for enterprise](#release-necessary-language-support-for-enterprise)
   + [Ensure stability of Babelfish in a production environment](#ensure-stability-of-babelfish-in-a-production-environment)
   + [[P1] Get Gemini enterprise ready](#p1-get-gemini-enterprise-ready)
@@ -55,11 +56,15 @@ ___
   - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
 
 #### Announce gitbase publicly
-  - [ ] Figure out date for Gitbase announcement and see what we can do
-  - [ ] Announcement talk at GitHub Universe
-  - [ ] If not possible for Github Universe define alternative
+- [ ] Figure out date for Gitbase announcement and see what we can do
+- [ ] Announcement talk at GitHub Universe
+- [ ] If not possible for Github Universe define alternative
 
-### Setup a stable 'Code As Data' deployment in our cluster for BigCompanyG
+### Improve the 'Code as Data' individual user experience
+- [ ] Release proof-of-concept of a single CLI tool experience for end-to-end code as data workflow experience
+
+### Have an available demo cluster
+- [ ] Deploy a demo cluster for 'Code as Data' that we can use for demos and 3rd parties
 
 ### Release necessary language support for enterprise
 - [ ] C# driver
