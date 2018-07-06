@@ -177,7 +177,7 @@
 - [ ] Reach 100 subscribers
 
 ### Increase social engagement with #MLonCode #49
-- [ ] Increase hashtag usage on social media channels by X% (TBD with #48)
+- [ ] Increase hashtag usage on social media channels by X% (tbd)
 - [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium
 - [ ] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
 - [ ] Post 10 times a week in our multiple social media accounts about #MLonCode
