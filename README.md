@@ -19,18 +19,18 @@
   - [ ] If not possible for Github Universe define alternative
 
 ### Formally map 'Code as Data' enterprise needs
-- [ ] Do 8 user research interviews
+- [ ] Do 8 user research activities
 - [ ] Map formal user personas
 - [ ] Map key use cases
   - [ ] Map features missing & priorities
 
-### Update website to match current reality and needs
+### Continuous release of the website
 - [ ] Deliver updated landing content
   - [ ] Product pages
   - [ ] General content
 - [ ] Add salesforce integration
   - [ ] Deliver actionable conversion funnel metrics
-- [ ] Update visual style
+- [ ] Deliver new visual style
 - [ ] Map content managing responsibilities
 
 #### Define & design hosted Playground experiences
@@ -53,10 +53,10 @@
   - [P1] Deliver gemini product page
 
 #### Formally map gemini enterprise needs
-- [ ] Do 3 user research interviews
+- [ ] Do 3 user research activities
 - [ ] Map formal user personas
 - [ ] Map key use cases
-  - [ ] Map features missing & priorities
+- [ ] Map features missing & priorities
 
 ## Being a better company to work at
 
@@ -66,9 +66,10 @@
 - [ ] Improve candidate pipeline on Infrastructure Role
 - [ ] Attract relevant profiles of applicants through our community
 - [ ] Improve the speed of the hiring process from our side
-- [ ] Increase candidate’s motivation and engagement at every interviewing step
-  - [ ] Implement candidate feedback surveys
-  - [ ] Deliver dashboard with actionable metrics
+
+#### Increase candidate’s motivation and engagement at every interviewing step
+- [ ] Implement candidate feedback surveys
+- [ ] Deliver dashboard with actionable metrics
 
 #### Having a more diverse funnel in terms of gender and race
 - [ ] Explicit developer community promotion via social media
@@ -79,14 +80,15 @@
 - [ ] Identify bottlenecks in the hiring process that makes it less remote-friendly and solve them
 
 ### Improve general happiness and communication
-- [ ] Implement periodic employee happiness surveys
-  - [ ] Deliver dashboard with actionable metrics
-  - [ ] Map key problems and successes
 - [ ] Conduct an engineering survey to improve development practices for Q3 and Q4
 - [ ] Conduct empathy sessions for cross-team documentation validation
 - [ ] Improve internal communication for events happening at source{d}
 - [ ] Improve the formal process of speaking at a conference
 - [ ] Resolve connectivity problems at the Madrid office
+
+#### Implement periodic employee happiness surveys
+- [ ] Deliver dashboard with actionable metrics
+- [ ] Map key problems and successes
 
 #### Setup GPU production cluster for ML
 - [ ] Research and install Kubeflow (or alternatives) to the production cluster
@@ -97,12 +99,24 @@
 - [ ] Make it easy to update and maintain PGA.
 
 ### Improve financial analysis and reporting
-- [ ] Finish financials processes refactoring
-  - [ ] Deliver financial insights dashboard
+- [ ] Complete refactoring of the financial processes 
+- [ ] Deliver financial insights dashboard
 
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
 ### Launch source{d} lookout alpha at GopherCon
+
+#### Define key product features
+- [ ] Map formal user personas
+- [ ] Map key use cases (features & priorities)
+- [ ] Design the user experience
+- [ ] Have 70% of key users report a positive experience
+
+##### Deliver formal user research
+- [ ] Do 5 internal user research activities
+- [ ] Do 10 external user research activities
+- [ ] Do a large-scale community survey
+- [ ] Estimate quant prevalence of pain points from code reviews/PRs
 
 #### Release a production ready analyzer SDK
 - [ ] Build alpha/beta versions of an analyser SDK
@@ -112,18 +126,6 @@
 - [ ] Release a production ready SDK with API stability guarantees
 
 #### Release a production ready service
-
-#### Define key product features
-- [ ] Deliver formal user research
-  - [ ] Do 5 internal user research interviews
-  - [ ] Do 10 external user research interviews
-  - [ ] Do a large-scale community survey
-  - [ ] Estimate quant prevalence of pain points from code reviews/PRs
-- [ ] Map formal user personas
-- [ ] Map key use cases
-  - [ ] Map features & priorities
-- [ ] Design the user experience
-  - [ ] Have over 2/3 of key users report a positive experience
 
 ##### Release a beta of the style analyzer[s]
 - [ ] General code style rules mining under UAST
@@ -223,7 +225,7 @@
 - [ ] Curate content and send newsletter weekly
 - [ ] Reach 100 subscribers
 - [ ] Map and measure the conversion funnel
-  - [ ] Deliver actionable metrics dashboard
+- [ ] Deliver actionable metrics dashboard
 
 ### Increase social engagement with #MLonCode #49
 - [ ] Increase hashtag usage on social media channels by X% (tbd)
@@ -231,6 +233,7 @@
 - [ ] Identify 10 speakers at conferences talking about #MLonCode, invite them for collaboration / tweet about their talks / partner with them
 - [ ] Post 10 times a week in our multiple social media accounts about #MLonCode
 - [ ] Create a strategy to manage our online communities (slack, etc) and corresponding online marketing
-- [ ] Get periodic & actionable insights from our data
-  - [ ] Automate data collection & storage
-  - [ ] Map DevRel dashboard needs and future direction
+
+#### Deliver periodic & actionable insights from our data
+- [ ] Automate data collection & storage
+- [ ] Map DevRel dashboard needs and future direction
