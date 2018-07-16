@@ -1,24 +1,34 @@
 # OKRs 2018 Q3
+
 - [OKRs 2018 Q3](#okrs-2018-q3)
   - [Bring 'Code as Data' to market with enterprises](#bring-code-as-data-to-market-with-enterprises)
     - [Get gitbase enterprise ready](#get-gitbase-enterprise-ready)
       - [Improve gitbase performance to single second responses on most queries](#improve-gitbase-performance-to-single-second-responses-on-most-queries)
       - [Announce gitbase publicly](#announce-gitbase-publicly)
+    - [Formally map 'Code as Data' enterprise needs](#formally-map-code-as-data-enterprise-needs)
+    - [Continuous release of the website](#continuous-release-of-the-website)
+      - [Define & design hosted Playground experiences](#define--design-hosted-playground-experiences)
     - [Release necessary language support for enterprise](#release-necessary-language-support-for-enterprise)
     - [Ensure stability of Babelfish in a production environment](#ensure-stability-of-babelfish-in-a-production-environment)
     - [Improve the 'Code as Data' individual user experience](#improve-the-code-as-data-individual-user-experience)
     - [Have an available demo cluster](#have-an-available-demo-cluster)
     - [Define a delivery strategy for the enterprise](#define-a-delivery-strategy-for-the-enterprise)
     - [[P1] Get Gemini enterprise ready](#p1-get-gemini-enterprise-ready)
+      - [Formally map gemini enterprise needs](#formally-map-gemini-enterprise-needs)
   - [Being a better company to work at](#being-a-better-company-to-work-at)
     - [Successfully hire for each open role](#successfully-hire-for-each-open-role)
+      - [Increase candidate’s motivation and engagement at every interviewing step](#increase-candidate%E2%80%99s-motivation-and-engagement-at-every-interviewing-step)
       - [Having a more diverse funnel in terms of gender and race](#having-a-more-diverse-funnel-in-terms-of-gender-and-race)
       - [Make our interview process more remote friendly](#make-our-interview-process-more-remote-friendly)
     - [Improve general happiness and communication](#improve-general-happiness-and-communication)
+      - [Implement periodic employee happiness surveys](#implement-periodic-employee-happiness-surveys)
       - [Improve deployment of ML applications to the local GPU cluster](#improve-deployment-of-ml-applications-to-the-local-gpu-cluster)
       - [Improve engineering workflows](#improve-engineering-workflows)
+    - [Improve financial analysis and reporting](#improve-financial-analysis-and-reporting)
   - [Bring 'Assisted Code Review' to developers in the open-source community](#bring-assisted-code-review-to-developers-in-the-open-source-community)
     - [Launch source{d} lookout alpha at GopherCon](#launch-sourced-lookout-alpha-at-gophercon)
+      - [Define key product features](#define-key-product-features)
+        - [Deliver formal user research](#deliver-formal-user-research)
       - [Release a production ready analyzer SDK](#release-a-production-ready-analyzer-sdk)
       - [Release a production ready service](#release-a-production-ready-service)
         - [Release a beta of the style analyzer[s]](#release-a-beta-of-the-style-analyzers)
@@ -26,20 +36,21 @@
         - [Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)](#any-oss-project-on-github-is-able-to-add-lookout-service-through-github-apps-flow)
         - [Announce Lookout to the world](#announce-lookout-to-the-world)
   - [Store the world's source code](#store-the-worlds-source-code)
-    - [Reach a stable version on borges & rovers](#reach-a-stable-version-on-borges-rovers)
-      - [Stable and performant borges & rovers](#stable-and-performant-borges-rovers)
+    - [Reach a stable version on borges & rovers](#reach-a-stable-version-on-borges--rovers)
+      - [Stable and performant borges & rovers](#stable-and-performant-borges--rovers)
       - [Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout)](#refactor-to-go-borges-library-to-reuse-borges-logic-in-other-projects-ie-lookout)
       - [Improve borges documentation](#improve-borges-documentation)
     - [Release the production kubernetes cluster](#release-the-production-kubernetes-cluster)
   - [Advance MLonCode awareness](#advance-mloncode-awareness)
     - [Make source{d} the face of MLonCode](#make-sourced-the-face-of-mloncode)
-    - [Create an "MLonCode friends" program](#create-an-mloncode-friends-program)
+    - [Create an "MLonCode friends" program](#create-an-%22mloncode-friends%22-program)
     - [Make source{d} a friend of MLonCode academia](#make-sourced-a-friend-of-mloncode-academia)
     - [Promote current source{d} stack](#promote-current-sourced-stack)
-    - [Define PR & BD Strategy](#define-pr-bd-strategy)
+    - [Define PR & BD Strategy](#define-pr--bd-strategy)
     - [Define Social Media Strategy](#define-social-media-strategy)
-    - [Create a weekly newsletter for announcements, events, curated content, etc.](#create-a-weekly-newsletter-for-announcements-events-curated-content-etc)
+    - [Create a weekly newsletter for announcements, events, curated content and more](#create-a-weekly-newsletter-for-announcements-events-curated-content-and-more)
     - [Increase social engagement with MLonCode](#increase-social-engagement-with-mloncode)
+      - [Deliver periodic & actionable insights from our data](#deliver-periodic--actionable-insights-from-our-data)
 
 ___
 
@@ -245,7 +256,7 @@ ___
 
 ### Reach a stable version on borges & rovers
 
-#### Stable and performant borges & rovers
+#### Stable and performing borges & rovers
 
 - [ ] Improve regression tests with more use cases
 - [ ] Keep improving go-git performance
@@ -273,7 +284,7 @@ ___
 - [ ] Run that workshop at least once at a meetup / conference
 - [ ] Create two demos showing the power of our stack solving a “real problem”
 - [ ] Get at least 6 more collaborators (talk/blog/...) with engineering
-- [ ] Improve the formal process of our internal speaker program in collaboration with Esther and get buyin from Engineering
+- [ ] Improve the formal process of our internal speaker program in collaboration with Esther and get buy-in from Engineering
 
 ### Create an "MLonCode friends" program
 
@@ -298,12 +309,12 @@ ___
 - [ ] Gather list of users of each project and classify them according to their profiles
 - [ ] source{d} Engine and/or Lookout featured at minimum 5 conferences
 - [ ] source{d} Engine and/or Lookout featured at minimum 5 meetups
-- [ ] Develop the MlonCode documentation/walkthrough  
+- [ ] Develop the MLonCode documentation / walkthrough  
 
 ### Define PR & BD Strategy
 
 - [ ] Develop & pitch source{d}'s unique Open Source Philosophy / Culture to the press and get publication in at least 2 publications
-- [ ] Onboard a PR agency to support product annoucements
+- [ ] Onboard a PR agency to support product announcements
 - [ ] Identify at least 1 BD led opportunity for joint announcement i.e GitHub / GitLab integration, etc
 
 ### Define Social Media Strategy
