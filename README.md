@@ -122,6 +122,9 @@ ___
 ### [P1] Get Gemini enterprise ready
 
 - [ ] Release a new version with the integration of function similarity
+  * [P1] function-level hashing runs on a single machine
+  * [P1] function-level hashing runs on Apache Spark cluster & fraction of PGA
+  * [P2] function-level hashing runs on Apache Spark cluster & full PGA
 - [ ] Announce gemini publicly
   - [P1] Deliver gemini product page
 
