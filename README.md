@@ -176,6 +176,7 @@ ___
 - [ ] Create the design document
 - [ ] Specify the requirements: programs and services needed in the GPU cluster
 - [ ] Deploy the design document requirements
+- [ ] Research and install Kubeflow (or alternatives) to the production cluster
 
 #### Improve engineering workflows
 
@@ -230,7 +231,6 @@ ___
 ##### Build alpha/beta versions of the service (learning from PoC)
 
 - [ ] Automated CI/CD pipeline to staging
-- [ ] Research and install Kubeflow (or alternatives) to the production cluster
 - [ ] Service deployed on a staging environment
 - [ ] 2 source{d} projects enable lookout from staging
 - [ ] Implement the lookout service internally
