@@ -233,10 +233,10 @@ ___
 
 ##### Build alpha/beta versions of the service (learning from PoC)
 
-- [ ] Automated CI/CD pipeline to staging
-- [ ] Service deployed on a staging environment
-- [ ] 2 source{d} projects enable lookout from staging
-- [ ] Implement the lookout service internally
+- [x] Automated CI/CD pipeline to staging
+- [x] Service deployed on a staging environment
+- [x] 2 source{d} projects enable lookout from staging
+- [x] Implement the lookout service internally
 
 ##### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)
 
