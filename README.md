@@ -212,10 +212,10 @@ ___
 
 #### Release a production ready analyzer SDK
 
-- [ ] Build alpha/beta versions of an analyser SDK
-- [ ] Build a simple reference example of analyzer
-- [ ] Any developer is able to understand how to create a new analyzer
-- [ ] Testing an analyzer locally is easy: streamlined to 1-2 shell commands
+- [x] Build alpha/beta versions of an analyser SDK
+- [x] Build a simple reference example of analyzer
+- [x] Any developer is able to understand how to create a new analyzer
+- [x] Testing an analyzer locally is easy: streamlined to 1-2 shell commands
 - [ ] Release a production ready SDK with API stability guarantees
 
 #### Release a production ready service
