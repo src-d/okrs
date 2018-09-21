@@ -121,7 +121,7 @@ ___
 
 ### [P1] Get Gemini enterprise ready
 
-- [ ] Release a new version with the integration of function similarity
+- [ ] Release a new version with the integration of function similarity (WIP: _apollo-side done_)
   * [P1] function-level hashing runs on a single machine
   * [P1] function-level hashing runs on Apache Spark cluster & fraction of PGA
   * [P2] function-level hashing runs on Apache Spark cluster & full PGA
@@ -222,12 +222,12 @@ ___
 
 ##### Release a beta of the style analyzer[s]
 
-- [ ] General code style rules mining under UAST
+- [ ] General code style rules mining under UAST (WIP: _AKA format analyzer_)
 - [ ] General code style rules mining over UAST
   - [ ] Iterate the higher level UAST abstractions to fix and maintain
 - [ ] Naming style suggestion
   - [ ] Incorporate the identifier splitter inside sourced-ml extraction pipeline
-- [ ] Typos correction in names
+- [ ] Typos correction in names (WIP: _prototype done_)
 - [ ] One-line best practices mining
 - [ ] Release UAST diffing
 
