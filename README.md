@@ -100,8 +100,8 @@ ___
 
 ### Release necessary language support for enterprise
 
-- [ ] C# driver
-- [ ] C/C++ driver
+- [ ] C# driver (WIP: _started_)
+- [ ] C/C++ driver (WIP)
 
 ### Ensure stability of Babelfish in a production environment
 
