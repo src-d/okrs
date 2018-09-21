@@ -58,13 +58,13 @@ ___
 
 ### Get gitbase enterprise ready
 
-- [ ] Release a stable gitbase version
-  - [ ] Add regression testing
-- [ ] Ensure gitbase interoperability with 3rd party tools
+- [x] Release a stable gitbase version
+  - [ ] Add regression testing (WIP: _pending automation_)
+- [ ] Ensure gitbase interoperability with 3rd party tools (WIP)
 
 #### Improve gitbase performance to single second responses on most queries
 
-- [ ] **Key results pending an internal engineering meeting**
+- [x] Improve gitbase performance to single second responses on most queries ([10x](https://docs.google.com/spreadsheets/d/1IXIi3_6GENp0kABh47kVEutuDTDRIL44_r3j2aSicyw/edit#gid=2095431547))
 - [ ] Switch Engine to use gitbase as a backend
   - [ ] Change engine schema to match gitbase's
   - [ ] Replace actual JGit implementation with a query builder and calls to gitbase
@@ -261,13 +261,13 @@ ___
 
 #### Stable and performing borges & rovers
 
-- [ ] Improve regression tests with more use cases
-- [ ] Keep improving go-git performance
+- [x] Improve regression tests with more use cases
+- [x] Keep improving go-git performance
 
 #### Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout)
 
 - [ ] Borges states diagram
-- [ ] Define a public API for that library studying actual use cases
+- [ ] Define a public API for that library studying actual use cases (WIP)
 - [ ] Integration tests and regression tests for that library
 
 #### Improve borges documentation
