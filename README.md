@@ -121,7 +121,7 @@ ___
 
 ### [P1] Get Gemini enterprise ready
 
-- [ ] Release a new version with the integration of function similarity WIP
+- [ ] Release a new version with the integration of function similarity (WIP)
   * [P1] function-level hashing runs on a single machine
   * [P1] function-level hashing runs on Apache Spark cluster & fraction of PGA
   * [P2] function-level hashing runs on Apache Spark cluster & full PGA
@@ -216,7 +216,7 @@ ___
 - [x] Build a simple reference example of analyzer
 - [x] Any developer is able to understand how to create a new analyzer
 - [x] Testing an analyzer locally is easy: streamlined to 1-2 shell commands
-- [ ] Release a production ready SDK with API stability guarantees WIP
+- [ ] Release a production ready SDK with API stability guarantees (WIP)
 
 #### Release a production ready service
 
@@ -240,10 +240,10 @@ ___
 
 ##### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)
 
-- [ ] Private 'status page' of the service health WIP
-- [ ] Automated CI/CD pipeline for production environment WIP?
-- [ ] Service deployed on a production environment WIP?
-- [ ] 2 OSS projects besides source{d} enable lookout NOT DONE
+- [ ] Private 'status page' of the service health (WIP)
+- [ ] Automated CI/CD pipeline for production environment (WIP)
+- [ ] Service deployed on a production environment (WIP, on gcloud)
+- [ ] 2 OSS projects besides source{d} enable lookout
 
 ##### Announce Lookout to the world
 
