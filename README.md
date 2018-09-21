@@ -277,7 +277,7 @@ ___
 
 ### Release the production kubernetes cluster
 
-- [ ] Release of the production cluster, and run rovers, borges and lookout, on it
+- [ ] Release of the production cluster, and run rovers, borges and lookout, on it (WIP: _self-hosted k8s done_)
 - [ ] HA of databases and other persistent services.
 
 ## Advance MLonCode awareness
