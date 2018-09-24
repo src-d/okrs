@@ -222,12 +222,12 @@ ___
 
 ##### Release a beta of the style analyzer[s]
 
-- [ ] General code style rules mining under UAST
+- [ ] General code style rules mining under UAST (WIP: _AKA format analyzer_)
 - [ ] General code style rules mining over UAST
   - [ ] Iterate the higher level UAST abstractions to fix and maintain
 - [ ] Naming style suggestion
   - [ ] Incorporate the identifier splitter inside sourced-ml extraction pipeline
-- [ ] Typos correction in names
+- [ ] Typos correction in names (WIP: _prototype done_)
 - [ ] One-line best practices mining
 - [ ] Release UAST diffing
 
