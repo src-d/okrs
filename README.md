@@ -121,7 +121,7 @@ ___
 
 ### [P1] Get Gemini enterprise ready
 
-- [ ] Release a new version with the integration of function similarity
+- [ ] Release a new version with the integration of function similarity (WIP)
   * [P1] function-level hashing runs on a single machine
   * [P1] function-level hashing runs on Apache Spark cluster & fraction of PGA
   * [P2] function-level hashing runs on Apache Spark cluster & full PGA
@@ -212,11 +212,11 @@ ___
 
 #### Release a production ready analyzer SDK
 
-- [ ] Build alpha/beta versions of an analyser SDK
-- [ ] Build a simple reference example of analyzer
-- [ ] Any developer is able to understand how to create a new analyzer
-- [ ] Testing an analyzer locally is easy: streamlined to 1-2 shell commands
-- [ ] Release a production ready SDK with API stability guarantees
+- [x] Build alpha/beta versions of an analyser SDK
+- [x] Build a simple reference example of analyzer
+- [x] Any developer is able to understand how to create a new analyzer
+- [x] Testing an analyzer locally is easy: streamlined to 1-2 shell commands
+- [ ] Release a production ready SDK with API stability guarantees (WIP)
 
 #### Release a production ready service
 
@@ -233,16 +233,16 @@ ___
 
 ##### Build alpha/beta versions of the service (learning from PoC)
 
-- [ ] Automated CI/CD pipeline to staging
-- [ ] Service deployed on a staging environment
-- [ ] 2 source{d} projects enable lookout from staging
-- [ ] Implement the lookout service internally
+- [x] Automated CI/CD pipeline to staging
+- [x] Service deployed on a staging environment
+- [x] 2 source{d} projects enable lookout from staging
+- [x] Implement the lookout service internally
 
 ##### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow)
 
-- [ ] Automated CI/CD pipeline for production environment
-- [ ] Private 'status page' of the service health
-- [ ] Service deployed on a production environment
+- [ ] Private 'status page' of the service health (WIP)
+- [ ] Automated CI/CD pipeline for production environment (WIP)
+- [ ] Service deployed on a production environment (WIP, on gcloud)
 - [ ] 2 OSS projects besides source{d} enable lookout
 
 ##### Announce Lookout to the world
