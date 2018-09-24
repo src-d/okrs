@@ -164,7 +164,7 @@ ___
 
 - [ ] Conduct a happiness survey and react to the unveiled issues
 - [ ] Conduct an engineering survey to improve development practices for Q3 and Q4
-- [ ] Conduct empathy sessions for cross-team documentation validation
+- [x] Conduct empathy sessions for cross-team documentation validation
 - [ ] Improve internal communication for events happening at source{d}
 - [ ] Improve the formal process of speaking at a conference
 - [ ] Resolve connectivity problems at the Madrid office
@@ -183,9 +183,9 @@ ___
 
 #### Improve engineering workflows
 
-- [ ] Regression Test, Benchmarks and Deploy platform
+- [ ] Regression Test, Benchmarks and Deploy platform (WIP)
 - [ ] Improve Logs, CLI, and other guides.
-- [ ] Make it easy to update and maintain PGA.
+- [ ] Make it easy to update and maintain PGA (WIP)
 
 ### Improve financial analysis and reporting
 
