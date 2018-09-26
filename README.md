@@ -96,9 +96,11 @@
 
 ## Store the world's source code
 
-### Reach a stable version on borges & rovers
+### Improve borges archiving performance
 
-#### Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout) [DR]
+- [ ] Improve borges archiving average throughput by 5x
+
+### Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout) [DR]
 
 - [ ] Define a public API for that library studying actual use cases
 
