@@ -102,10 +102,6 @@
 
 - [ ] Define a public API for that library studying actual use cases
 
-#### Improve borges documentation [DR]
-
-- [ ] Gitbook integration
-
 ### Release the production kubernetes cluster [INFRA]
 
 - [ ] Release of the production cluster
