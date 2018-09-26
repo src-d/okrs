@@ -108,5 +108,5 @@
 
 - [ ] Release of the production cluster
 - [ ] Run rovers and borges on it
-- [ ] Deploy services with HA
+- [ ] Deploy services with HA: PostgreSQL, RabbitMQ, etcd
 - [ ] Migrate staging cluster to the new deployment method
