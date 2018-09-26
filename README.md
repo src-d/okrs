@@ -22,7 +22,7 @@
 ### Gitbase research [DR]
 
 - [ ] Support updates in backing data (indexes, etc)
-- [ ] Usage of caches for UAST and others
+- [ ] Usage of persistent caches for UAST and others
 
 ### Launch gitbase-spark-connector [DR]
 
@@ -73,8 +73,8 @@
 
 ### Get lookout production ready [APPS]
 
-- [ ] Extend lookout end user documentation
-- [ ] Extend lookout developer documentation
+- [ ] Extend lookout end user documentation in gitbook
+- [ ] Extend lookout developer documentation in gitbook
 - [ ] Stable Python SDK (training-aware? DD)
 - [ ] Stable Go SDK (training-aware? DD)
 
