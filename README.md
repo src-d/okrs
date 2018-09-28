@@ -109,4 +109,5 @@
 - [ ] Release of the production cluster
 - [ ] Run rovers and borges on it
 - [ ] Deploy services with HA: PostgreSQL, RabbitMQ, etcd
+- [ ] Add monitoring to the pipeline (rovers, borges and associated services)
 - [ ] Migrate staging cluster to the new deployment method
