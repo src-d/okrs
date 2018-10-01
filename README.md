@@ -141,9 +141,9 @@ ___
 
 - [ ] Hire a VP of Engineering
 - [ ] Develop a candidate pipeline for VP of Sales
-- [ ] Improve candidate pipeline on Infrastructure Role
-- [ ] Attract relevant profiles of applicants through our community
-- [ ] Improve the speed of the hiring process from our side
+- [x] Improve candidate pipeline on Infrastructure Role
+- [x] Attract relevant profiles of applicants through our community
+- [x] Improve the speed of the hiring process from our side
 
 #### Increase candidate’s motivation and engagement at every interviewing step
 
@@ -153,8 +153,8 @@ ___
 #### Having a more diverse funnel in terms of gender and race
 
 - [ ] Explicit developer community promotion via social media
-- [ ] Proactively reaching out to diverse communities
-- [ ] Proper updates to the website & guide to promote multi-national and cultural environment
+- [x] Proactively reaching out to diverse communities
+- [x] Proper updates to the website & guide to promote multi-national and cultural environment
 
 #### Make our interview process more remote friendly
 
@@ -163,7 +163,7 @@ ___
 ### Improve general happiness and communication
 
 - [ ] Conduct a happiness survey and react to the unveiled issues
-- [ ] Conduct an engineering survey to improve development practices for Q3 and Q4
+- [x] Conduct an engineering survey to improve development practices for Q3 and Q4
 - [x] Conduct empathy sessions for cross-team documentation validation
 - [ ] Improve internal communication for events happening at source{d}
 - [ ] Improve the formal process of speaking at a conference
