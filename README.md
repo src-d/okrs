@@ -98,7 +98,7 @@
 
 ## Store the world's source code
 
-### Improve borges archiving performance
+### Improve borges archiving performance [DR]
 
 - [ ] Improve borges archiving average throughput by 5x
 
