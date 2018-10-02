@@ -12,7 +12,8 @@
 
 ### Get gitbase enterprise ready [DR]
 
-- [ ] Authentication and authorization abstractions with basic MySQL auth implementation
+- [ ] Authentication and authorization abstractions prepared for future integration with LDAP and Kerberos
+- [ ] Basic MySQL auth implementation
 - [ ] Audit logs (connections, queries)
 
 ### Get web interfaces enterprise ready [APPS]
