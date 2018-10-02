@@ -266,14 +266,14 @@ ___
 
 #### Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout)
 
-- [ ] Borges states diagram
+- [x] Borges states diagram
 - [ ] Define a public API for that library studying actual use cases (WIP)
 - [ ] Integration tests and regression tests for that library
 
 #### Improve borges documentation
 
-- [ ] Define documentation summary
-- [ ] Gitbook integration
+- [x] Define documentation summary
+- [x] Gitbook integration
 
 ### Release the production kubernetes cluster
 
