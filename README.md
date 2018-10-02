@@ -4,10 +4,11 @@
 
 ### Ensure gitbase interoperability with 3rd party tools [DR]
 
-- [ ] Drivers (JS, PHP, Python, Ruby, Go, Java, .NET)
+- [ ] Drivers for in-house languages (Python, Go, Java).
 - [ ] mysqldump
 - [ ] grafana
-- [ ] BI (Tableau, PowerBI, pick one)
+- [ ] Tableau
+- [ ] Drivers for other popular languages (JavaScript, Ruby, .NET, PHP).
 
 ### Get gitbase enterprise ready [DR]
 
