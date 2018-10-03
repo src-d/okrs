@@ -84,9 +84,12 @@
 
 #### Release style analyzers [ML]
 
-- [ ] Launch beta formatting analyzer
-- [ ] Launch beta typos analyzer
-- [ ] Launch alpha advanced style analyzer
+- [ ] Launch beta formatting analyzer - November 1st
+- [ ] Launch beta typos analyzer - December 1st
+- [ ] Add Java or Go formatting support - December 1st
+- [ ] Collect the structured diff dataset - December 1st
+- [ ] Best practices analyzer PoC
+- [ ] Finalize id2vec
 - [ ] Deployment to Google Cloud [INFRA]
 
 #### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow) [APPS]
