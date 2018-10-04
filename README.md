@@ -121,3 +121,24 @@
 ## Improve local-gpu cluster usability [INFRA]
 
 - [ ] Improve local-gpu usability for the ML team so that it can be adopted as the main ML platform instead of science-3
+
+## Being a better company to work at
+
+### Successfully hire for each open role
+
+- [ ] Hire a Lead engineer for the Applications team 
+- [ ] Hire a Senior test engineer 
+- [ ] Hire two interns in Q4 for Q1-2 for ML team
+- [ ] Attract relevant profiles through our community
+- [ ] Add feedback after every interview on Lever
+
+### Scale the hiring process
+
+- [ ] Review candidates periodically by each team  
+- [ ] Use of scheduling tools for efficient communication by all interviewers
+- [ ] Team leaders responsible for candidates in last steps when the Talent Manager is out of the office 
+
+### Increase candidate’s motivation and engagement at every interviewing step
+
+- [ ] Applicants reviewing time fall to 5 days in average 
+- [ ] Send candidate feedback surveys to identify bottlenecks in the process
