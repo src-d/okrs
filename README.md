@@ -87,6 +87,7 @@
 - [ ] Best practices analyzer PoC
 - [ ] Finalize id2vec
 - [ ] Deployment to Google Cloud [INFRA]
+- [ ] Setup monitoring [INFRA]
 
 #### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow) [APPS]
 
