@@ -113,3 +113,7 @@
 - [ ] Deploy services with HA: PostgreSQL, RabbitMQ, etcd
 - [ ] Add monitoring to the pipeline (rovers, borges and associated services)
 - [ ] Migrate staging cluster to the new deployment method
+
+## Improve local-gpu cluster usability [INFRA]
+
+- [ ] Improve local-gpu usability for the ML team so that it can be adopted as the main ML platform instead of science-3
