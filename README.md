@@ -54,6 +54,10 @@
 
 - [ ] Release a new version with the integration of function similarity
 
+## Improve the 'Code as Data' individual user experience
+
+- [ ] Move engine maintainership to apps [APPS]
+
 ## Improve quality across all products [INFRA][DR]
 
 - [ ] Regression test platform [INFRA]
