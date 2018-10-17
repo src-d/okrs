@@ -56,7 +56,7 @@
 
 ## Improve the 'Code as Data' individual user experience
 
-- [ ] Move engine maintainership to apps [APPS]
+- [ ] Move engine maintainership to apps, review code [APPS]
 
 ## Improve quality across all products [INFRA][DR]
 
