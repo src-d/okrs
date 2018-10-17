@@ -24,7 +24,7 @@
 ### Gitbase research [DR]
 
 - [ ] Initial research on supporting updates in backing data (indexes, etc)
-- [ ] Speed up retrieving UASTs
+- [ ] Usage of caches for UAST and others, precalculated in packfiles
 
 ### Launch gitbase-spark-connector [DR]
 
