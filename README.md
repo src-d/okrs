@@ -16,6 +16,20 @@
 - [ ] Basic MySQL auth implementation
 - [ ] Audit logs (connections, queries)
 
+### source{d} Engine add-ons (applications) [DevRel]
+
+#### Get Gemini enterprise ready [DevRel]
+
+- [ ] Find a better name for Gemini
+- [ ] Define messaging around gemini
+- [ ] Deliver gemini product page
+
+#### Get source{d} engine on Spark enterprise ready [DevRel]
+
+- [ ] Find a better name
+- [ ] Define messaging around Spark connector
+- [ ] Deliver Spark integration product page
+
 ### Get web interfaces enterprise ready [APPS]
 
 - [ ] gitbase-web SSO (protocol TBD)
@@ -92,20 +106,6 @@
 
 - [ ] Write specifications and draft design for a unified web client (instead of gitbase + bblfsh, etc)
 
-### source{d} Engine add-ons (applications) [DevRel]
-
-#### Get Gemini enterprise ready [DevRel]
-
-- [ ] Find a better name for Gemini
-- [ ] Define messaging around gemini
-- [ ] Deliver gemini product page
-
-#### Get source{d} engine on Spark enterprise ready [DevRel]
-
-- [ ] Find a better name
-- [ ] Define messaging around Spark connector
-- [ ] Deliver Spark integration product page
-
 ## Improve quality across all products [INFRA][DR]
 
 - [ ] Regression test platform [INFRA]
@@ -127,6 +127,16 @@
 - [ ] Extend lookout developer documentation in gitbook
 - [ ] Stable Python SDK (training-aware? DD)
 - [ ] Stable Go SDK (training-aware? DD)
+
+### Promote 'Assisted Code Review' to developers in the open-source community [DevRel]
+
+- [ ] Prepare beta announcement with top 3 analyzers
+- [ ] Update Product webpage with description, videos, and instructions on how to use it
+- [ ] Write press release, blog post, etc
+- [ ] Plan social media strategy (twitter, reddit, hackernews ...)
+- [ ] Schedule an online meetup demoing Analyzers & show how people can build one
+- [ ] Define a strategy for analyzers promotion / Registry ?
+- [ ] Identify users after launch and partner with them
 
 ### Release a production ready service
 
@@ -209,16 +219,6 @@
 - [ ] Map and report on conversion funnel with hindsights and recommendations
 
 ## Advance MLonCode awareness [DevRel]
-
-### Bring 'Assisted Code Review' to developers in the open-source community [DevRel]
-
-- [ ] Prepare beta announcement with top 3 analyzers
-- [ ] Update Product webpage with description, videos, and instructions on how to use it
-- [ ] Write press release, blog post, etc
-- [ ] Plan social media strategy (twitter, reddit, hackernews ...)
-- [ ] Schedule an online meetup demoing Analyzers & show how people can build one
-- [ ] Define a strategy for analyzers promotion / Registry ?
-- [ ] Identify users after launch and partner with them
 
 ### Make source{d} the face of MLonCode [DevRel]
 
