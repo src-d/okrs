@@ -18,8 +18,8 @@
 
 ### Get web interfaces enterprise ready [APPS]
 
-- [ ] gitbase-web SSO (protocol TBD)
-- [ ] bblfsh-web SSO (protocol TBD)
+- [ ] gitbase-web SSO (protocol compatible with Google)
+- [ ] bblfsh-web SSO (protocol compatible with Google)
 
 ### Gitbase research [DR]
 
