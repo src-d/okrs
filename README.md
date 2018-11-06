@@ -32,13 +32,13 @@
 
 ### Get web interfaces enterprise ready [APPS]
 
-- [ ] gitbase-web SSO (protocol TBD)
-- [ ] bblfsh-web SSO (protocol TBD)
+- [ ] gitbase-web SSO (protocol compatible with Google)
+- [ ] bblfsh-web SSO (protocol compatible with Google)
 
 ### Gitbase research [DR]
 
 - [ ] Initial research on supporting updates in backing data (indexes, etc)
-- [ ] Usage of caches for UAST and others, precalculated in packfiles
+- [ ] Use precomputed UASTs
 
 ### Launch gitbase-spark-connector [DR]
 
@@ -249,3 +249,4 @@
 - [ ] Make Paper Reading Club summaries publicly available (forum?)
 - [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium (awesome ml on code)
 - [ ] Identify 10 speakers at conferences talking about MLonCode, invite them for collaboration / tweet about their talks / partner with them
+
