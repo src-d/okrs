@@ -180,6 +180,25 @@
 
 - [ ] Improve local-gpu usability for the ML team so that it can be adopted as the main ML platform instead of science-3
 
+## Being a better company to work at
+
+### Successfully hire for each open role
+
+- [ ] Hire a Lead engineer for the Applications team 
+- [ ] Hire a Senior test engineer 
+- [ ] Hire two interns in Q4 for Q1-2 for ML team
+- [ ] Attract relevant profiles through our community
+
+### Scale the hiring process
+
+- [ ] Use of scheduling tools for efficient communication by all interviewers
+- [ ] Each team responsible for candidates in last steps when the Talent Manager is unavailable 
+
+### Increase candidate’s motivation and engagement at every interviewing step
+
+- [ ] Applicants reviewing time fall to 5 days in average 
+- [ ] Analyse candidate's survey answers to identify bottlenecks in the process 
+
 ## Define DevRel Strategy/Tools [DevRel]
 
 - [ ] Define DevRel strategy/tools
