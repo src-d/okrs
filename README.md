@@ -113,11 +113,11 @@
 - [ ] Automated regression tests for gitbase [DR]
 - [ ] Conduct two empathy sessions for cross-team documentation and user experience improvements [ENG][QA]
 
-## Release a new version of PGA [INFRA][APPS]
+## ~~Release a new version of PGA [INFRA][APPS]~~
 
-- [ ] Incremental PGA updates [APPS]
-- [ ] Automate PGA generation [APPS][INFRA]
-- [ ] Release PGA v2 [APPS]
+- [ ] ~~Incremental PGA updates [APPS]~~
+- [ ] ~~Automate PGA generation [APPS][INFRA]~~
+- [ ] ~~Release PGA v2 [APPS]~~
 
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
