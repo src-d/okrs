@@ -66,7 +66,7 @@
 
 ### Get Gemini production ready [APPS]
 
-- [ ] Release a new version with the integration of function similarity
+- [x] Release a new version with the integration of function similarity
 
 ## Improve the 'Code as Data' individual user experience
 
