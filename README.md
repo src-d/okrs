@@ -125,8 +125,8 @@
 
 - [ ] Extend lookout end user documentation in gitbook
 - [ ] Extend lookout developer documentation in gitbook
-- [ ] Stable Python SDK (training-aware? DD)
-- [ ] Stable Go SDK (training-aware? DD)
+- [ ] Stable Python SDK
+- [ ] Stable Go SDK
 
 ### Promote 'Assisted Code Review' to developers in the open-source community [DevRel]
 
