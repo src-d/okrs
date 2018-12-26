@@ -48,13 +48,16 @@
 ### Release necessary language support for enterprise [LA]
 
 - [ ] C# driver
-- [ ] C/C++ driver
+- [X] C/C++ driver
 
 ### Get bblfsh ready for wide language support of our use cases [LA]
 
-- Finish migration to v2 for all supported client languages (JVM, Python, Go)
-- Deprecate v1
-- Fix positions in all alpha+ drivers
+- Finish migration to v2 for all supported client languages:
+   - [X] Go
+   - [ ] Scala
+   - [ ] Python
+- [ ] Deprecate UAST v1.
+- [ ] Fix positions in all alpha+ drivers.
 
 ### Have an available demo cluster [INFRA]
 
