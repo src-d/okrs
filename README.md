@@ -73,7 +73,7 @@
 
 ## Improve the 'Code as Data' individual user experience
 
-- [ ] Move engine maintainership to apps, review code [APPS]
+- [x] Move engine maintainership to apps, review code [APPS]
 
 ### Launch Unified Engine Playground [DevRel]
 
@@ -126,10 +126,10 @@
 
 ### Get lookout production ready [APPS]
 
-- [ ] Extend lookout end user documentation in gitbook
-- [ ] Extend lookout developer documentation in gitbook
-- [ ] Stable Python SDK
-- [ ] Stable Go SDK
+- [x] Extend lookout end user documentation in gitbook
+- [x] Extend lookout developer documentation in gitbook
+- [x] Stable Python SDK
+- [x] Stable Go SDK
 
 ### Promote 'Assisted Code Review' to developers in the open-source community [DevRel]
 
