@@ -185,22 +185,29 @@
 
 ## Being a better company to work at
 
-### Successfully hire for each open role
+### Successfully hire for each open role [Talent]
 
 - [ ] Hire a Lead engineer for the Applications team 
 - [ ] Hire a Senior test engineer 
 - [ ] Hire two interns in Q4 for Q1-2 for ML team
 - [ ] Attract relevant profiles through our community
+- [ ] Hire one member in Talent for Q1 
 
-### Scale the hiring process
+### Scale the hiring process [Talent]
 
 - [ ] Use of scheduling tools for efficient communication by all interviewers
 - [ ] Each team responsible for candidates in last steps when the Talent Manager is unavailable 
 
-### Increase candidate’s motivation and engagement at every interviewing step
+### Increase candidate’s motivation and engagement at every interviewing step [Talent]
 
 - [ ] Applicants reviewing time fall to 5 days in average 
 - [ ] Analyse candidate's survey answers to identify bottlenecks in the process 
+
+### Having a more diverse funnel in terms of gender and race [Talent]
+
+- [ ] Explicit developer community promotion via social media
+- [ ] Proactively reaching out to diverse communities
+- [ ] Proper updates to the website & guide to promote multi-national and cultural environment
 
 ## Define DevRel Strategy/Tools [DevRel]
 
