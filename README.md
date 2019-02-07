@@ -10,9 +10,9 @@
 
 - [ ] Support for diff tree [P0][DP]
 - [ ] Support for diff [P0][DP]
-- [ ] Gitbase support for low-level git UDFs [P1][DP]
-- [ ] Research options for gitbase plugins [P1][DP]
 - [ ] Research options for UDFs (gitbase or gitbase-spark-connector) [P1][DP]
+- [ ] Research options for gitbase plugins [P2][DP]
+- [ ] Gitbase support for low-level git UDFs [P2][DP]
 
 ### Increase variety of data we can analyze
 
@@ -21,10 +21,11 @@
 
 ### Analyze current performance limits and improve them
 
-- [ ] Parallelized queries inside of a repository [P1][DP]
+- [ ] Gitbase to expose only reachable objects [P0][DP]
 - [ ] Parallelized index creation [P1][DP]
+- [ ] Parallelized queries inside of a repository [P2][DP]
 - [ ] Make performance dashboard available to product team [P1][DP][PRODUCT]
-- [ ] Provide specs for distributed version (gitbase-spark-connector) [P2][DP]
+- [ ] Provide specs for distributed version (gitbase-spark-connector-enterprise) [P2][DP][INFRA]
 
 ### Make enterprise friendly
 
@@ -34,14 +35,13 @@
 
 ### Simplify usage
 
-- [ ] Gitbase to expose only reachable objects [P0][DP]
 - [ ] Provide installers [P2][APPS][PRODUCT]
 - [ ] Provide specs for new Engine architecture (stand-alone server + config file) [PRODUCT]
 
 ### Improve stability
 
 - [ ] Ensure gitbase works when dataset and indexes do not match [P0][DP]
-- [ ] Provide a single, default, performant and stable regex implementation for gitbase [P2][DP]
+- [ ] Provide a single, default, performant and stable regex implementation for gitbase and enry [P2][DP][LA]
 - [ ] Stabilize Babelfish in production (support large-scale use from gitbase) [P0][LA]
 - [ ] Add engine cli integration tests [P0][APPS]
 
@@ -126,10 +126,10 @@
 
 ## Hiring
 
-- Hiring: Test (1 Senior) [P0][ENG]
-- Hiring: ML (1 Intern + 1 Senior) [P0][ML]
-- Hiring: Apps (1 Senior, 1 Lead) [P0][APPS]
-- Hiring: LA (1 Senior + 1) [P0][LA]
-- Hiring: DR (1 Senior) [P1][DR]
-- Hiring: DP (1 Senior) [P1][DP]
-- Hiring: Infra (1 Senior) [P1][INFRA]
+- Hiring: Test (1 Senior) [P0][TALENT]
+- Hiring: ML (1 Intern + 1 Senior) [P0][TALENT]
+- Hiring: Apps (1 Senior, 1 Lead) [P0][TALENT]
+- Hiring: LA (1 Senior + 1) [P0][TALENT]
+- Hiring: DR (1 Senior) [P1][TALENT]
+- Hiring: DP (1 Senior) [P1][TALENT]
+- Hiring: Infra (1 Senior) [P1][TALENT]
