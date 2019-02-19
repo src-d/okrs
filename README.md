@@ -42,7 +42,7 @@
 
 - [ ] Ensure gitbase works when dataset and indexes do not match [P0][DP]
 - [ ] Provide a single, default, performant and stable regex implementation for gitbase and enry [P2][DP][LA]
-- [ ] Stabilize Babelfish in production (support large-scale use from gitbase) [P0][LA]
+- [ ] Stabilize Babelfish in production (support large-scale use from gitbase) and ML tasks [P0][LA]
 - [ ] Add engine cli integration tests [P0][APPS]
 
 ### Online updates
