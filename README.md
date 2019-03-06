@@ -74,7 +74,7 @@
 
 ### Improve current lookout analyzers
 
-- Style Analyzer in one more language (possibly Python) [P0][ML]
+- Style Analyzer in one more language (possibly Java) [P0][ML]
 - Release Typo Analyzer [P0][ML]
 
 ### Create new lookout analyzers
