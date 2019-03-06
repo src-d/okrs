@@ -8,7 +8,7 @@
 
 ### Increase number of algorithms we can run
 
-- [ ] Support for diff tree [P0][DP]
+- [ ] Support for git diff tree [P0][DP]
 - [ ] Support for diff [P0][DP]
 - [ ] Research options for UDFs (gitbase or gitbase-spark-connector) [P1][DP]
 - [ ] Research options for gitbase plugins [P2][DP]
