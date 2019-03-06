@@ -80,7 +80,7 @@
 ### Create new lookout analyzers
 
 - [ ] Analyzers for most common linters / traditional static tools [P?][APPS][PRODUCT]
-- [ ] Collect a structured dataset of diffs for best-practices-analyzer [P1][ML]
+- [ ] Collect a structured dataset of diffs for best-practices-analyzer [P2][ML]
 - [ ] Research what ML team can deliver for best-practices-analyzer [P1][ML]
 
 ### Lookout Platform
