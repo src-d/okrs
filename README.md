@@ -1,281 +1,135 @@
-# OKRs 2018 Q4
+# OKRs 2019 Q1
 
 ## Bring 'Code as Data' to market with enterprises
 
-### Ensure gitbase interoperability with 3rd party tools [DR]
+### Enable engine integration with 3rd parties
 
-- [ ] Drivers for in-house languages (Python, Go, Java).
-- [ ] mysqldump
-- [ ] grafana
-- [ ] Tableau
-- [ ] Drivers for other popular languages (JavaScript, Ruby, .NET, PHP).
+- [ ] gitbase-spark-connector SQL 3rd party interop (Spark Thrift Server) [P0][DP]
 
-### Get gitbase enterprise ready [DR]
+### Increase number of algorithms we can run
 
-- [ ] Authentication and authorization abstractions prepared for future integration with LDAP and Kerberos
-- [ ] Basic MySQL auth implementation
-- [ ] Audit logs (connections, queries)
+- [ ] Support for git diff tree [P0][DP]
+- [ ] Support for diff [P0][DP]
+- [ ] Research options for UDFs (gitbase or gitbase-spark-connector) [P1][DP]
+- [ ] Research options for gitbase plugins [P2][DP]
+- [ ] Gitbase support for low-level git UDFs [P2][DP]
 
-### source{d} Engine add-ons (applications) [DevRel]
+### Increase variety of data we can analyze
 
-#### Get Gemini enterprise ready [DevRel]
+- [ ] Provide specs for external data sources [P1][DP][PRODUCT]
+- [ ] Provide specs to expose dependency analysis [P2][LA]
 
-- [ ] Find a better name for Gemini
-- [ ] Define messaging around gemini
-- [ ] Deliver gemini product page
+### Analyze current performance limits and improve them
 
-#### Get source{d} engine on Spark enterprise ready [DevRel]
+- [ ] Gitbase to expose only reachable objects [P0][DP]
+- [ ] Parallelized index creation [P1][DP]
+- [ ] Parallelized queries inside of a repository [P2][DP]
+- [ ] Make performance dashboard available to product team [P1][DP][PRODUCT]
+- [ ] Provide specs for distributed version (gitbase-spark-connector-enterprise) [P2][DP][INFRA]
 
-- [ ] Find a better name
-- [ ] Define messaging around Spark connector
-- [ ] Deliver Spark integration product page
+### Make enterprise friendly
 
-### Get web interfaces enterprise ready [APPS]
+- [ ] gitbase-web SSO and RBAC [P1][APPS][PRODUCT]
+- [ ] bblfsh-web SSO and RBAC [P1][APPS][PRODUCT]
+- [ ] document gitbase audit logs and RBAC [P1][DP]
 
-- [ ] gitbase-web SSO (protocol compatible with Google)
-- [ ] bblfsh-web SSO (protocol compatible with Google)
+### Simplify usage
 
-### Gitbase research [DR]
+- [ ] Provide installers [P2][APPS][PRODUCT]
+- [ ] Provide specs for new Engine architecture (stand-alone server + config file) [PRODUCT]
 
-- [ ] Initial research on supporting updates in backing data (indexes, etc)
-- [ ] Use precomputed UASTs
+### Improve stability
 
-### Launch gitbase-spark-connector [DR]
+- [ ] Ensure gitbase works when dataset and indexes do not match [P0][DP]
+- [ ] Provide a single, default, performant and stable regex implementation for gitbase and enry [P2][DP][LA]
+- [ ] Stabilize Babelfish in production (support large-scale use from gitbase) and ML tasks [P0][LA]
+- [ ] Add engine cli integration tests [P0][APPS]
 
-- [ ] Launch gitbase-spark-connector community beta version.
-- [ ] Launch gitbase-spark-connector enterprise beta version.
+### Online updates
 
-### Release necessary language support for enterprise [LA]
+- [ ] Gitbase to support online updates [P1][DP]
 
-- [ ] C# driver
-- [X] C/C++ driver
+### Release necessary language support for enterprise
 
-### Get bblfsh ready for wide language support of our use cases [LA]
+- [ ] C# driver [P0][LA]
 
-- Finish migration to v2 for all supported client languages:
-   - [X] Go
-   - [ ] Scala
-   - [ ] Python
-- [ ] Deprecate UAST v1.
-- [ ] Fix positions in all alpha+ drivers.
+### Get bblfsh ready for wide language support of our use cases
 
-### Have an available demo cluster [INFRA]
-
-- [ ] Deploy a demo cluster for 'Code as Data' that we can use for demos and 3rd parties
-
-### Define a delivery strategy for the enterprise
-
-- [ ] Test deployment for faux-customer [INFRA][ENG]
-
-### Get Gemini production ready [APPS]
-
-- [x] Release a new version with the integration of function similarity
+- [ ] Make UAST v2 the standard interface for Babelfish [P0][LA]
+- [ ] Compact diffs of UAST trees [P1][LA]
+- [ ] Plan for a language-independent style-analyzer (bblfsh-side support) [P2][LA]
+- [ ] Provide an efficient storage format for large UASTs collections [P3][LA]
 
 ## Improve the 'Code as Data' individual user experience
 
-- [x] Move engine maintainership to apps, review code [APPS]
+## Improve quality across all products
 
-### Launch Unified Engine Playground [DevRel]
+- [ ] Conduct two empathy sessions for cross-team documentation and user experience improvements [P1][ENG]
 
-- [ ] Define Engine Playground experience (sandbox for srcd)
-- [ ] Launch new Engine Playground Alpha Version
-- [ ] Add metrics from playground to main dashboard
-- [ ] Define main use cases and personas for the engine
+## Release a new version of PGA
 
-### source{d} Engine awareness & use cases [DevRel]
-
-- [ ] Define roadmap + timeline of Engine releases
-- [ ] Identify at least 3 companies effectively using the Engine 
-- [ ] Publish at least 1 case study
-- [ ] Press announcement for Engine releases 0.2 & power users
-- [ ] Define "Give me your end of year budget" campaign
-- [ ] Create enterprise workshop on Code as Data and run it at least once
-- [ ] Offer 6 companies our CodeAsData workshop and schedule at least one
-
-### Promote current source{d} stack [DevRel]
-
-- [ ] Develop strategy & app for the "What's in your code?" campaign
-- [ ] Develop strategy & app for the "Analyzing most popular OSS Projects" campaign
-- [ ] Write and promote blog series for each feature in the engine
-- [ ] source{d} Engine featured at 3 conferences
-- [ ] source{d} Engine featured at 3 meetups
-
-#### Run beta program on source{d} Engine [DevRel]
-
-- [ ] Identify at least 3 users of source{d} Engine with different personas/use cases
-- [ ] Meet regularly (biweekly) with users and gather feedback
-
-### Defined unified web client [DevRel]
-
-- [ ] Write specifications and draft design for a unified web client (instead of gitbase + bblfsh, etc)
-
-## Improve quality across all products [INFRA][DR]
-
-- [ ] Regression test platform [INFRA]
-- [ ] Automated regression tests for borges [DR]
-- [ ] Automated regression tests for gitbase [DR]
-- [ ] Conduct two empathy sessions for cross-team documentation and user experience improvements [ENG][QA]
-
-## ~~Release a new version of PGA [INFRA][APPS]~~
-
-- [ ] ~~Incremental PGA updates [APPS]~~
-- [ ] ~~Automate PGA generation [APPS][INFRA]~~
-- [ ] ~~Release PGA v2 [APPS]~~
+- [ ] Release a new version, updated, fixed, including #stars [P1][DR]
 
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
-### Get lookout production ready [APPS]
+### Improve current lookout analyzers
 
-- [x] Extend lookout end user documentation in gitbook
-- [x] Extend lookout developer documentation in gitbook
-- [x] Stable Python SDK
-- [x] Stable Go SDK
+- Style Analyzer in one more language (possibly Java) [P0][ML]
+- Release Typo Analyzer [P0][ML]
 
-### Promote 'Assisted Code Review' to developers in the open-source community [DevRel]
+### Create new lookout analyzers
 
-- [ ] Prepare beta announcement with top 3 analyzers
-- [ ] Update Product webpage with description, videos, and instructions on how to use it
-- [ ] Write press release, blog post, etc
-- [ ] Plan social media strategy (twitter, reddit, hackernews ...)
-- [ ] Schedule an online meetup demoing Analyzers & show how people can build one
-- [ ] Define a strategy for analyzers promotion / Registry ?
-- [ ] Identify users after launch and partner with them
+- [ ] Analyzers for most common linters / traditional static tools [P?][APPS][PRODUCT]
+- [ ] Collect a structured dataset of diffs for best-practices-analyzer [P2][ML]
+- [ ] Research what ML team can deliver for best-practices-analyzer [P1][ML]
 
-### Release a production ready service
+### Lookout Platform
 
-#### Release style analyzers [ML]
-
-- [ ] Launch beta formatting analyzer
-- [ ] Launch beta typos analyzer
-- [ ] Add Java or Go formatting support
-- [ ] Collect the structured diff dataset
-- [ ] Best practices analyzer PoC
-- [ ] Finalize id2vec
-- [ ] Deployment to Google Cloud [INFRA]
-- [ ] Setup monitoring [INFRA]
-
-#### Any OSS project on Github is able to add lookout service (through 'Github Apps' flow) [APPS]
-
-- [ ] Private 'status page' of the service health
-- [ ] Automated CI/CD pipeline for production environment
-- [ ] Service deployed on a production environment
-- [ ] 2 OSS projects besides source{d} enable lookout
+- [ ] Collect GitHub reactions as feedback to comments [P1][APPS]
+- [ ] Provide metrics on usage [P0][APPS]
+- [ ] Live Demo Repository with all available analyzers set-up [P1][APPS][INFRA]
 
 ## Store the world's source code
 
-### Improve borges archiving performance [DR]
+### Refactor to go-borges library, to reuse borges logic in other projects
 
-- [ ] Improve borges archiving average throughput by 5x
+- [ ] Library for access to a collection of git repositories (go-borges) [P0][DR]
+- [ ] go-borges-based borges [P0][DR]
+- [ ] siva backend for go-borges [P1][DR]
 
-### Refactor to go-borges library, to reuse borges logic in other projects (i.e. Lookout) [DR]
+### Improve borges storage
 
-- [ ] Define a public API for that library studying actual use cases
+- [ ] Inspect storage efficiency (review siva usage, siva compaction, git gc, etc) [P1][DR]
+- [ ] Research distributed storage alternatives [P2][INFRA][DR]
 
-### Release the production kubernetes cluster [INFRA]
+## Improve infrastructure
 
-- [ ] Release of the production cluster
-- [ ] Run rovers and borges on it
-- [ ] Deploy services with HA: PostgreSQL, RabbitMQ, etcd
-- [ ] Add monitoring to the pipeline (rovers, borges and associated services)
-- [ ] Migrate staging cluster to the new deployment method
+### Release the production kubernetes pipeline cluster
 
-## Improve local-gpu cluster usability [INFRA]
+- [ ] Release of the production cluster [P0][INFRA]
+- [ ] Run rovers and borges on it [P0][INFRA]
+- [ ] Deploy services with HA: PostgreSQL, RabbitMQ, etcd [P0][INFRA]
+- [ ] Add monitoring to the pipeline (rovers, borges and associated services) [P0][INFRA]
+- [ ] Migrate staging cluster to the new deployment method [P0][INFRA]
+- [ ] Improve Helm Terraform Provider [P1][INFRA]
+- [ ] New staging cluster with latest Code as Data stack [P1][INFRA]
 
-- [ ] Improve local-gpu usability for the ML team so that it can be adopted as the main ML platform instead of science-3
+### Improve local-gpu cluster usability
+
+- [ ] Migrate to the new ML cluster [P0][ML][INFRA]
 
 ## Being a better company to work at
 
-### Successfully hire for each open role [Talent]
+## Advance MLonCode awareness
 
-- [ ] Hire a Lead engineer for the Applications team 
-- [ ] Hire a Senior test engineer 
-- [ ] Hire two interns in Q4 for Q1-2 for ML team
-- [ ] Attract relevant profiles through our community
-- [ ] Hire one member in Talent for Q1 
+- [ ] Publish the final id2vec model [P2][ML]
 
-### Scale the hiring process [Talent]
+## Hiring
 
-- [ ] Use of scheduling tools for efficient communication by all interviewers
-- [ ] Each team responsible for candidates in last steps when the Talent Manager is unavailable 
-
-### Increase candidate’s motivation and engagement at every interviewing step [Talent]
-
-- [ ] Applicants reviewing time fall to 5 days in average 
-- [ ] Analyse candidate's survey answers to identify bottlenecks in the process 
-
-### Having a more diverse funnel in terms of gender and race [Talent]
-
-- [ ] Explicit developer community promotion via social media
-- [ ] Proactively reaching out to diverse communities
-- [ ] Proper updates to the website & guide to promote multi-national and cultural environment
-
-## Define DevRel Strategy/Tools [DevRel]
-
-- [ ] Define DevRel strategy/tools
-- [ ] Hire one more team member (Tech Writer / Advocate)
-- [ ] Hire social media intern
-- [ ] Define DevRel budget
-- [ ] Execute sponsorships / attendance strategies for Q4 & 2019
-- [ ] Decide and document responsibilities for Website content updates
-- [ ] Find & Onboard Swag vendor
-- [ ] Define a schedule of integrated campaigns for Q4 and 2019Q1
-- [ ] Improve metrics dashboard to show actionable data (MoM, YoY, QoQ)
-
-### Define PR & BD Strategy [DevRel]
-
-- [ ] Pitch the "What's in your code?" campaign to the press and get publication in at least 2 publications
-- [ ] Get Eiso bylines published in at least 2 publications
-- [ ] Secure at least 3 analysts briefings or demos
-- [ ] Qualify at least 1 BD led opportunity for joint announcement i.e Microsoft,  GitHub / GitLab etc
-
-### Manage Read/Write Community [DevRel]
-
-- [ ] Decide on new blogging platform
-- [ ] Decide on new forum platform
-- [ ] Define metrics of success per social platform and decide which ones matter
-
-### Define & Setup Email Marketing strategy [DevRel]
-
-- [ ] Curate content and send newsletter bi-weekly
-- [ ] Newsletter reaches 300 (+100% growth) subscribers
-- [ ] Set up master drip campaign for leads
-- [ ] Write report on email performance with hindsights and recommendations
-
-### Define and Manage a Community / Sales Funnel [DevRel]
-
-- [ ] Refine Salesforce + Pardot MQL and SQL rules
-- [ ] GDPR compliance 
-- [ ] Map and report on conversion funnel with hindsights and recommendations
-
-## Advance MLonCode awareness [DevRel]
-
-### Make source{d} the face of MLonCode [DevRel]
-
-- [ ] Create two lookout analyzer demos
-- [ ] Get at least 6 collaborators (talk/blog/...) from engineering team
-- [ ] Lookout featured at 3 conferences
-- [ ] Lookout featured at 3 meetups
-
-### Create an "source{d} friends" program [DevRel]
-
-- [ ] Define "source{d} friends" program goals & value proposition & final name
-- [ ] Identify potential members and invite them officially, get 20 to join
-- [ ] Welcome each member personally and provide some swag
-- [ ] Classify members by profile (speakers, researchers, industry/academia, event organizers, etc)
-- [ ] Create dedicated slack channel for MLonCode friends
-- [ ] Organize private briefings with members pre-launch giving them opportunity to give us feedback on prez + product and help promote the message
-
-### Make source{d} a friend of MLonCode academia [DevRel]
-
-- [ ] Plan participation for academic events relevant to MLonCode until 1st half of 2019
-- [ ] Decide level of involvement (attending, presenting, sponsoring, etc)
-- [ ] Organize a Lookout Analyzer Hackathon and invite researchers
-- [ ] 3 citations of source{d} datasets / tech in academia endorsed documents
-
-### Increase social engagement with MLonCode [DevRel]
-
-- [ ] Support and promote 3 Paper Reading Clubs 
-- [ ] Make Paper Reading Club summaries publicly available (forum?)
-- [ ] Identify 20 blog posts / papers on the topic written by others, propose cross-posting to our blog/medium (awesome ml on code)
-- [ ] Identify 10 speakers at conferences talking about MLonCode, invite them for collaboration / tweet about their talks / partner with them
-
+- Hiring: Test (1 Senior) [P0][TALENT]
+- Hiring: ML (1 Intern + 1 Senior) [P0][TALENT]
+- Hiring: Apps (1 Senior, 1 Lead) [P0][TALENT]
+- Hiring: LA (1 Senior + 1) [P0][TALENT]
+- Hiring: DR (1 Senior) [P1][TALENT]
+- Hiring: DP (1 Senior) [P1][TALENT]
+- Hiring: Infra (1 Senior) [P1][TALENT]
