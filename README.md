@@ -4,14 +4,14 @@
 
 ### Enable engine integration with 3rd parties
 
-- [ ] gitbase-spark-connector SQL 3rd party interop (Spark Thrift Server) [P0][DP]
+- [~] gitbase-spark-connector SQL 3rd party interop (Spark Thrift Server) [P0][DP]
 
 ### Increase number of algorithms we can run
 
 - [ ] Support for git diff tree [P0][DP]
 - [ ] Support for diff [P0][DP]
 - [ ] Research options for UDFs (gitbase or gitbase-spark-connector) [P1][DP]
-- [ ] Research options for gitbase plugins [P2][DP]
+- [~] Research options for gitbase plugins [P2][DP]
 - [ ] Gitbase support for low-level git UDFs [P2][DP]
 
 ### Increase variety of data we can analyze
@@ -21,7 +21,7 @@
 
 ### Analyze current performance limits and improve them
 
-- [ ] Gitbase to expose only reachable objects [P0][DP]
+- [x] Gitbase to expose only reachable objects [P0][DP]
 - [ ] Parallelized index creation [P1][DP]
 - [ ] Parallelized queries inside of a repository [P2][DP]
 - [ ] Make performance dashboard available to product team [P1][DP][PRODUCT]
@@ -31,7 +31,7 @@
 
 - [ ] gitbase-web SSO and RBAC [P1][APPS][PRODUCT]
 - [ ] bblfsh-web SSO and RBAC [P1][APPS][PRODUCT]
-- [ ] document gitbase audit logs and RBAC [P1][DP]
+- [x] document gitbase audit logs and RBAC [P1][DP]
 
 ### Simplify usage
 
@@ -40,10 +40,10 @@
 
 ### Improve stability
 
-- [ ] Ensure gitbase works when dataset and indexes do not match [P0][DP]
-- [ ] Provide a single, default, performant and stable regex implementation for gitbase and enry [P2][DP][LA]
-- [ ] Stabilize Babelfish in production (support large-scale use from gitbase) and ML tasks [P0][LA]
-- [ ] Add engine cli integration tests [P0][APPS]
+- [x] Ensure gitbase works when dataset and indexes do not match [P0][DP]
+- [x] Provide a single, default, performant and stable regex implementation for gitbase and enry [P2][DP][LA]
+- [~] Stabilize Babelfish in production (support large-scale use from gitbase) and ML tasks [P0][LA]
+- [x] Add engine cli integration tests [P0][APPS]
 
 ### Online updates
 
@@ -51,11 +51,11 @@
 
 ### Release necessary language support for enterprise
 
-- [ ] C# driver [P0][LA]
+- [x] C# driver [P0][LA]
 
 ### Get bblfsh ready for wide language support of our use cases
 
-- [ ] Make UAST v2 the standard interface for Babelfish [P0][LA]
+- [~] Make UAST v2 the standard interface for Babelfish [P0][LA]
 - [ ] Compact diffs of UAST trees [P1][LA]
 - [ ] Plan for a language-independent style-analyzer (bblfsh-side support) [P2][LA]
 - [ ] Provide an efficient storage format for large UASTs collections [P3][LA]
@@ -64,38 +64,38 @@
 
 ## Improve quality across all products
 
-- [ ] Conduct two empathy sessions for cross-team documentation and user experience improvements [P1][ENG]
+- [~] _(50%)_ Conduct two empathy sessions for cross-team documentation and user experience improvements [P1][ENG]
 
 ## Release a new version of PGA
 
-- [ ] Release a new version, updated, fixed, including #stars [P1][DR]
+- [ ] _(WIP)_ Release a new version, updated, fixed, including #stars [P1][DR]
 
 ## Bring 'Assisted Code Review' to developers in the open-source community
 
 ### Improve current lookout analyzers
 
-- Style Analyzer in one more language (possibly Java) [P0][ML]
-- Release Typo Analyzer [P0][ML]
+- [ ] Style Analyzer in one more language (possibly Java) [P0][ML]
+- [ ] _(WIP)_ Release Typo Analyzer [P0][ML]
 
 ### Create new lookout analyzers
 
 - [ ] Analyzers for most common linters / traditional static tools [P?][APPS][PRODUCT]
-- [ ] Collect a structured dataset of diffs for best-practices-analyzer [P2][ML]
+- [ ] _(WIP)_ Collect a structured dataset of diffs for best-practices-analyzer [P2][ML]
 - [ ] Research what ML team can deliver for best-practices-analyzer [P1][ML]
 
 ### Lookout Platform
 
 - [ ] Collect GitHub reactions as feedback to comments [P1][APPS]
 - [ ] Provide metrics on usage [P0][APPS]
-- [ ] Live Demo Repository with all available analyzers set-up [P1][APPS][INFRA]
+- [x] Live Demo Repository with all available analyzers set-up [P1][APPS][INFRA]
 
 ## Store the world's source code
 
 ### Refactor to go-borges library, to reuse borges logic in other projects
 
-- [ ] Library for access to a collection of git repositories (go-borges) [P0][DR]
-- [ ] go-borges-based borges [P0][DR]
-- [ ] siva backend for go-borges [P1][DR]
+- [x] Library for access to a collection of git repositories (go-borges) [P0][DR]
+- [ ] _(WIP)_ go-borges-based borges [P0][DR]
+- [x] siva backend for go-borges [P1][DR]
 
 ### Improve borges storage
 
@@ -106,17 +106,17 @@
 
 ### Release the production kubernetes pipeline cluster
 
-- [ ] Release of the production cluster [P0][INFRA]
-- [ ] Run rovers and borges on it [P0][INFRA]
-- [ ] Deploy services with HA: PostgreSQL, RabbitMQ, etcd [P0][INFRA]
-- [ ] Add monitoring to the pipeline (rovers, borges and associated services) [P0][INFRA]
+- [x] Release of the production cluster [P0][INFRA]
+- [x] Run rovers and borges on it [P0][INFRA]
+- [x] Deploy services with HA: PostgreSQL, RabbitMQ, etcd [P0][INFRA]
+- [x] Add monitoring to the pipeline (rovers, borges and associated services) [P0][INFRA]
 - [ ] Migrate staging cluster to the new deployment method [P0][INFRA]
-- [ ] Improve Helm Terraform Provider [P1][INFRA]
+- [x] Improve Helm Terraform Provider [P1][INFRA]
 - [ ] New staging cluster with latest Code as Data stack [P1][INFRA]
 
 ### Improve local-gpu cluster usability
 
-- [ ] Migrate to the new ML cluster [P0][ML][INFRA]
+- [~] _(WIP)_ Migrate to the new ML cluster [P0][ML][INFRA]
 
 ## Being a better company to work at
 
@@ -126,10 +126,10 @@
 
 ## Hiring
 
-- Hiring: Test (1 Senior) [P0][TALENT]
-- Hiring: ML (1 Intern + 1 Senior) [P0][TALENT]
-- Hiring: Apps (1 Senior, 1 Lead) [P0][TALENT]
-- Hiring: LA (1 Senior + 1) [P0][TALENT]
-- Hiring: DR (1 Senior) [P1][TALENT]
-- Hiring: DP (1 Senior) [P1][TALENT]
-- Hiring: Infra (1 Senior) [P1][TALENT]
+- [ ] _(WIP)_ Hiring: Test (1 Senior) [P0][TALENT]
+- [x] _(1 Intern + 1)_ Hiring: ML (1 Intern + 1 Senior) [P0][TALENT]
+- [ ] Hiring: Apps (1 Senior, 1 Lead) [P0][TALENT]
+- [ ] Hiring: LA (1 Senior + 1) [P0][TALENT]
+- [ ] Hiring: DR (1 Senior) [P1][TALENT]
+- [ ] Hiring: DP (1 Senior) [P1][TALENT]
+- [ ] Hiring: Infra (1 Senior) [P1][TALENT]
