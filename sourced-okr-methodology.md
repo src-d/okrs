@@ -108,12 +108,12 @@ Now that you're familiar with the concepts, we'll jump to the practical implemen
 #### Ultimate OKR
 
 * Turn your mission and vision into an Ultimate Goal.
-* An Ultimate Goal should aim for a point at a considerable distance in the future (10, 15 years).
+* An Ultimate Goal should aim for a point at a considerable distance in the future (theoretically 10, 15 years for large companies, but adaptable to startups).
 
 #### Company OKRs
 
 * They represent the strategy.
-* 3 or 4 things your organization aims to achieve in the next 12 months.
+* 3 or 4 things your organization aims to achieve in the next 3 months.
 * Everyone in the organization should be able to give their input.
 * Start with an OKR workshop where all key stakeholders responsible for company strategy give their input for what they think the top priorities should be.
 
