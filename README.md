@@ -2,7 +2,7 @@
 
 ## Methodology
 
-- [source{d} OKR methodology](https://github.com/src-d/okrs/blob/master/2018-Q1.md)
+- [source{d} OKR methodology](https://github.com/src-d/okrs/blob/master/sourced-okr-methodology.md)
 
 ## Previous quarters OKRs
 
