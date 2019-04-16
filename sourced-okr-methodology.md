@@ -52,7 +52,7 @@ Here we present curated resources on the principles and applications of OKRs, wh
 ### Roles & responsibilities
 
 * Ownership of the OKR _process_ (OKRs Ambassador): @[Fernanda](http://www.github.com/gomesfernanda). Responsible for ensuring that everyone who will be using OKR is trained, engaged and has ongoing help and guidance (the "how"). [Don't shoot the messenger](https://www.wikiwand.com/en/Shooting_the_messenger)!
-* Ownership of the OKR _contents_: Management and team leaders still own their OKRs (the "what") and other related artifacts. Commitment is key.
+* Ownership of the OKR _contents_: Management and team leads still own their OKRs (the "what") and other related artifacts. Commitment is key.
 
 ### Concepts
 
@@ -168,7 +168,7 @@ For the OKRs of a given quarter of the year starting at moment T = 0, milestones
 * From T-2 to T-0: Bottom-up weeks, all team members comment on the draft document, proposing:
   * Initiatives to achieve the OKRs proposed. Initiatives can be thought of as  groups of Epics that would help us achieving an OKR.
   * OKRs and Initiatives that aren't directly linked to one of the company-wide OKRs (or were overlooked), but do provide value to the company. 
-  * Team leaders and Product and Engineering management play a key role here, to ensure there are Initiatives for each OKR and Epics (even under a broader definition) to help have a shared common understanding of the problem tackled, refine requirements, preliminary feasibility.
+  * Team leads and Product and Engineering management play a key role here, to ensure there are Initiatives for each OKR and Epics (even under a broader definition) to help have a shared common understanding of the problem tackled, refine requirements, preliminary feasibility.
 * From T-1 to T-0: OKRs are finalized, Initiatives linked to the respective Epics. This is a key week and commitment is required.
 * On T-0: the outcome is published and announced at CWM. The OKRs draft now finalized is merged to the [source{d} OKRs](https://github.com/src-d/okrs) repository.
 
