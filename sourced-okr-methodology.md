@@ -151,7 +151,7 @@ _(Image: Perdoo)_
 * Not involving all the stakeholders on OKRs elaboration.
 * Not communicating properly the process throughout the organization.
 * Writing poor OKRs (that don't measure customer behavior, but measures features delivery).
-* Writing OKrs that fail to scale (not tying into each other and not making sense strategically throughout the organization).
+* Writing OKRs that fail to scale (not tying into each other and not making sense strategically throughout the organization).
 
 ### Process
 
